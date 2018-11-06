@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Linux &mdash; doc_maurice  Dokumentation</title>
+  <title>Linux &mdash; Zukunftstag Maurice 1.2 Dokumentation</title>
   
 
   
@@ -47,7 +47,7 @@
           
 
           
-            <a href="../index.html" class="icon icon-home"> doc_maurice
+            <a href="../index.html" class="icon icon-home"> Zukunftstag Maurice
           
 
           
@@ -55,6 +55,10 @@
 
           
             
+            
+              <div class="version">
+                1.0
+              </div>
             
           
 
@@ -81,7 +85,15 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="readme.html">Einführung</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Linux</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#git">Git</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#git">Git</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ein-repository-laden">Ein Repository laden</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#klonen-eines-repositories">Klonen eines Repositories</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#synchronisieren">Synchronisieren</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#anderungen-hochladen">Änderungen hochladen</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -98,7 +110,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">doc_maurice</a>
+          <a href="../index.html">Zukunftstag Maurice</a>
         
       </nav>
 
@@ -153,23 +165,62 @@
   <div class="section" id="linux">
 <h1>Linux<a class="headerlink" href="#linux" title="Link zu dieser Überschrift">¶</a></h1>
 <p>1991 begann Linus Torvalds in Helsinki (Finnland) mit der Entwicklung, um unter anderem seinen eigenen Computer besser zu verstehen. Mit der Zeit merkte er, dass sich das System immer mehr zu einem Betriebssystem entwickelte. Heute ist Linux ein modular aufgebautes Betriebssystem und wird von Softwareentwicklern auf der ganzen Welt weiterentwickelt.</p>
-<a class="reference internal image-reference" href="../_images/linus.jpg"><img alt="../_images/linus.jpg" src="../_images/linus.jpg" style="width: 25%;" /></a>
-<a class="reference internal image-reference" href="../_images/linux.png"><img alt="../_images/linux.png" src="../_images/linux.png" style="width: 30%;" /></a>
-<p>Linux wird vielfältig eingesetzt, beispielsweise auf Smartphones, Netbooks, Notebooks, Multimedia-Endgeräten und Supercomputern.
-Dies bringt auch zahlreiche Nutzer mit sich, darunter Private (wie du und ich), Regierungen, Organisationen und Unternehmen.</p>
+<p>Linux wird vielfältig eingesetzt, beispielsweise auf Smartphones, Notebooks, Multimedia-Endgeräten und Supercomputern.
+Dies bringt auch zahlreiche Nutzer mit sich, darunter private Personen (wie du und ich), Regierungen, Organisationen und Unternehmen.</p>
 </div>
 <div class="section" id="git">
 <h1>Git<a class="headerlink" href="#git" title="Link zu dieser Überschrift">¶</a></h1>
 <p>Git ist eine freie Software zur verteilten Versionsverwaltuing von Dateien, die ebenfalls durch Linus Torvalds initiiert wurde. GitHub ist ein Onlinedienst, der unsere Entwicklungsprojekte auf seinen Servern bereitstellt (File-hosting). Die GitHub, Inc. hat ihren Sitz in San Francisco in den Vereinigten Staaten.</p>
 <p>GitHub war im Jahr 2011 bei Open-Source-Software der populärste Dienst seiner Art, gemessen an der Anzahl der Schreibzugriffe (Commits). Der Dienst hat über 31 Millionen (31’000’000) registrierte Nutzer und verwaltet 96 Millionen Repositories (Stand: Oktober 2019).
 Im Oktober 2016 berichtete die Zeitschrift Nature über die zunehmende Bedeutung von GitHub für den Austausch von wissenschaftlichen Daten. Im Jahr 2016 hätten ein Prozent aller Veröffentlichungen in der Informatik GitHub als Quelle zitiert, gefolgt von Mathematik und den Biowissenschaften.</p>
-<a class="reference internal image-reference" href="../_images/github.png"><img alt="../_images/github.png" src="../_images/github.png" style="width: 45%;" /></a>
-<a class="reference internal image-reference" href="../_images/mexikaner.jpg"><img alt="../_images/mexikaner.jpg" src="../_images/mexikaner.jpg" style="width: 23%;" /></a>
-<a class="reference internal image-reference" href="../_images/mario.jpg"><img alt="../_images/mario.jpg" src="../_images/mario.jpg" style="width: 23%;" /></a>
-<a class="reference internal image-reference" href="../_images/jugi.png"><img alt="../_images/jugi.png" src="../_images/jugi.png" style="width: 23%;" /></a>
-<a class="reference internal image-reference" href="../_images/spider.png"><img alt="../_images/spider.png" src="../_images/spider.png" style="width: 23%;" /></a>
-<a class="reference internal image-reference" href="../_images/walter.jpg"><img alt="../_images/walter.jpg" src="../_images/walter.jpg" style="width: 23%;" /></a>
-<a class="reference internal image-reference" href="../_images/jedi.jpg"><img alt="../_images/jedi.jpg" src="../_images/jedi.jpg" style="width: 23%;" /></a>
+<div class="section" id="ein-repository-laden">
+<h2>Ein Repository laden<a class="headerlink" href="#ein-repository-laden" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Es gibt typischerweise zwei Möglichkeiten ein GitHub Repository zu erhalten:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Man nimmt einen lokalen Ordner und verwandelt diesen in ein GitHub Repository</li>
+<li>Man <em>klont</em> ein bestehendes Repository von GitHub</li>
+</ol>
+</div></blockquote>
+<p>In beiden Fällen erhält man sein Repository lokal verfügbar auf der lokalen Festplatte.</p>
+<div class="section" id="klonen-eines-repositories">
+<h3>Klonen eines Repositories<a class="headerlink" href="#klonen-eines-repositories" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Um ein Repository zu klonen brauchst du den Befehl <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">&lt;url&gt;</span></code>. Statt nur einer einfachen Kopie der Dateien kriegst du mit diesem Befehl alle Versionen, Daten und Dateien, die auf dem Server vorhanden sind.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git clone git@gitlab.organisation:user/repository.git
+</pre></div>
+</div>
+<p>Findest du heraus, wie genau dein Befehl lauten muss?</p>
+</div>
+<div class="section" id="synchronisieren">
+<h3>Synchronisieren<a class="headerlink" href="#synchronisieren" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Um alle neuen Dateien zu downloaden und Änderungen zu erhalten, gib den folgenden Befehl ein</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git pull master
+</pre></div>
+</div>
+<p>oder einfach</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git pull
+</pre></div>
+</div>
+</div>
+<div class="section" id="anderungen-hochladen">
+<h3>Änderungen hochladen<a class="headerlink" href="#anderungen-hochladen" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Nachdem du deinen Inhalt und Dateien geändert hast, muss du die Änderungen entsprechend auch an GitHub senden. Tust du das nicht, findest du auf deiner Homepage immer noch die alten Inhalte. Upload funktioniert über folgende Befehlsfolge:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Speichere deine Files im richtigen Ordner auf deinem Computer</li>
+<li><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">.</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&quot;Beschreibe</span> <span class="pre">was</span> <span class="pre">bei</span> <span class="pre">diesem</span> <span class="pre">upload</span> <span class="pre">passiert&quot;</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span></code></li>
+</ol>
+</div></blockquote>
+<p>Wenn du eine Datei im stage hast, die dort nicht hin gehört, kannst du diese auch wieder entfernen bevor das ganze Paket an GitHub gesendet wird. Dies tust du wie folgt:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">HEAD</span> <span class="pre">deine_datei</span></code></li>
+</ol>
+</div></blockquote>
+</div>
+</div>
 </div>
 
 
@@ -190,7 +241,7 @@ Im Oktober 2016 berichtete die Zeitschrift Nature über die zunehmende Bedeutung
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Maurice Fischer
+        &copy; Copyright 2018, Natalie Kuster
 
     </p>
   </div>

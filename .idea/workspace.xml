@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71dd1f61-febc-4c64-bfe9-a7c102544908" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Einfuehrung/images/github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Einfuehrung/images/jedi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Einfuehrung/images/jugi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Einfuehrung/images/mario.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Einfuehrung/images/mexikaner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Einfuehrung/images/spider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Einfuehrung/images/walter.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Einfuehrung/readme.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Einführung/images/git_operations.png" beforeDir="false" afterPath="$PROJECT_DIR$/Einfuehrung/images/git_operations.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Einführung/images/linus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Einfuehrung/images/linus.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Einführung/images/linux.png" beforeDir="false" afterPath="$PROJECT_DIR$/Einfuehrung/images/linux.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Einführung/readme.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Einfuehrung/intro.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/Einführung/readme.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/Einführung/readme.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/environment.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/index.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/index.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/Einführung/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Einführung/readme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/Einführung/readme.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/Einführung/readme.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/index.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/genindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/objects.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/searchindex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Einfuehrung/intro.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Einfuehrung/intro.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,23 +23,27 @@
         <counts>
           <entry key="jpg" value="2" />
           <entry key="png" value="4" />
+          <entry key="py" value="1" />
           <entry key="rst" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="6" />
+          <entry key="Python" value="1" />
           <entry key="ReST" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="rst" value="2192" />
+          <entry key="py" value="57" />
+          <entry key="rst" value="3994" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ReST" value="2192" />
+          <entry key="Python" value="57" />
+          <entry key="ReST" value="3994" />
         </counts>
       </usages-collector>
     </session>
@@ -101,6 +82,7 @@
         <option value="$PROJECT_DIR$/Einführung/readme.rst" />
         <option value="$PROJECT_DIR$/index.rst" />
         <option value="$PROJECT_DIR$/Einfuehrung/readme.rst" />
+        <option value="$PROJECT_DIR$/conf.py" />
         <option value="$PROJECT_DIR$/Einfuehrung/intro.rst" />
       </list>
     </option>
@@ -249,6 +231,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Einfuehrung/images/git_operations.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Einfuehrung/intro.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />

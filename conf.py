@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'doc_maurice'
-copyright = '2018, Maurice Fischer'
-author = 'Maurice Fischer'
+project = 'Zukunftstag Maurice'
+copyright = '2018, Natalie Kuster'
+author = 'Natalie Kuster'
 
 # The short X.Y version
-version = ''
+version = '1.0'
 # The full version, including alpha/beta/rc tags
-release = ''
+release = '1.2'
 
 
 # -- General configuration ---------------------------------------------------
