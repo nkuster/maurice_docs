@@ -4,11 +4,15 @@
    contain the root `toctree` directive.
 
 
-Maurice
-=============
+Anleitung für Docs in Python
+============================
+
+****************************
+Zukunftstag Maurice Fischer
+****************************
 
 .. toctree::
    :maxdepth: 5
    :caption: Contents:
 
-   /scripts/readme.rst
+   /Einführung/readme.rst
