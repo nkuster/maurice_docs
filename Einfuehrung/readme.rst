@@ -7,4 +7,4 @@ Einführung
    :maxdepth: 4
    :caption: Contents:
 
-   Einführung/intro.rst
+   intro.rst

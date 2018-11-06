@@ -15,4 +15,4 @@ Zukunftstag Maurice Fischer
    :maxdepth: 5
    :caption: Contents:
 
-   /Einführung/readme.rst
+   Einfuehrung/readme.rst
