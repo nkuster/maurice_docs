@@ -27,7 +27,9 @@
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
-    <link rel="search" title="Suche" href="../search.html" /> 
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="next" title="Glossary" href="../Glossary/readme.html" />
+    <link rel="prev" title="Grundgerüst deiner Page" href="readme.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -81,8 +83,16 @@
             
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../Einfuehrung/readme.html">Einführung</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="readme.html">Grundgerüst deiner Page</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Erstelle dein eigenes Git Repository</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#readme-datei">readme Datei</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#template">Template</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../Glossary/readme.html">Glossary</a></li>
 </ul>
 
@@ -129,6 +139,8 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
+          <li><a href="readme.html">Grundgerüst deiner Page</a> &raquo;</li>
+        
       <li>Erstelle dein eigenes Git Repository</li>
     
     
@@ -152,6 +164,39 @@
 <h1>Erstelle dein eigenes Git Repository<a class="headerlink" href="#erstelle-dein-eigenes-git-repository" title="Link zu dieser Überschrift">¶</a></h1>
 <p>Als erstes brauchst du einen GitHub Account, den du mit deinem persönlichen Octocat-Kostüm schmückst. 😃 Danach erstellst du ein <em>public repository</em> und klonst es, damit wir die Dateien lokal auf dem Computer bearbeiten können.</p>
 <p>✏️ Erinnerst du dich an die einzelnen Schritte aus der Einführung? Wenn nicht, blättere einfach zurück…</p>
+<div class="section" id="readme-datei">
+<h2>readme Datei<a class="headerlink" href="#readme-datei" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Als readme oder „Lies mich“ wird eine Datei bezeichnet, die überlicherweise mit der Software mitgeliefert wird und wichtige Informationen über diese enthält. Oft wird der Benutzer vor der Installation und vor der ersten Verwendung der Software über wichtige Details informiert, die für den Gebrauch wichtig sind.
+Wir werden in diese Datei dein Inhaltsverzeichnis schreiben, damit sich alle User auf deiner Page auch gut zurecht finden!</p>
+</div>
+<div class="section" id="template">
+<h2>Template<a class="headerlink" href="#template" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Template ist ein englisches Wort für <em>Schablone</em>. Diese Schablone stellt eine Art Gerüst dar, das einen Teil der Gestaltung deiner Page vorgibt. Du kannst die fehlenden Teile nur noch einsetzen und so die Vorlage zu einer vollständigen Homepage ergänzen.</p>
+<p>Das template fügen wir in den Konfigurationen, sprich den <em>Einstellungen</em>, ein. Diese Datei heisst <code class="docutils literal notranslate"><span class="pre">config.py</span></code>. Dort fügst du an gegebener Stelle den folgenden Code ein:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_theme</span> <span class="o">=</span> <span class="s1">&#39;sphinx_rtd_theme&#39;</span>
+
+<span class="c1"># Theme options are theme-specific and customize the look and feel of a theme</span>
+<span class="c1"># further.  For a list of options available for each theme, see the</span>
+<span class="c1"># documentation.</span>
+<span class="c1">#</span>
+<span class="n">html_theme_options</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;canonical_url&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;analytics_id&#39;</span><span class="p">:</span> <span class="s1">&#39;UA-128752678-1&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;logo_only&#39;</span><span class="p">:</span> <span class="bp">False</span><span class="p">,</span>
+    <span class="s1">&#39;display_version&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
+    <span class="s1">&#39;prev_next_buttons_location&#39;</span><span class="p">:</span> <span class="s1">&#39;bottom&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;style_external_links&#39;</span><span class="p">:</span> <span class="bp">False</span><span class="p">,</span>
+    <span class="c1"># Toc options</span>
+    <span class="s1">&#39;collapse_navigation&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
+    <span class="s1">&#39;sticky_navigation&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
+    <span class="s1">&#39;navigation_depth&#39;</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+    <span class="s1">&#39;includehidden&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
+    <span class="s1">&#39;titles_only&#39;</span><span class="p">:</span> <span class="bp">False</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>✏️ Findest du die Stelle im <code class="docutils literal notranslate"><span class="pre">config.py</span></code> file? Kopiere den Code rein und schaue dir dein neues Template an! 😃</p>
+</div>
 </div>
 
 
@@ -159,6 +204,15 @@
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../Glossary/readme.html" class="btn btn-neutral float-right" title="Glossary" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="readme.html" class="btn btn-neutral" title="Grundgerüst deiner Page" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
