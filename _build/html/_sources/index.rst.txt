@@ -4,9 +4,6 @@
    contain the root `toctree` directive.
 
 
-Anleitung für Docs in Python
-============================
-
 ****************************
 Zukunftstag Maurice Fischer
 ****************************
@@ -16,3 +13,5 @@ Zukunftstag Maurice Fischer
    :caption: Contents:
 
    Einfuehrung/readme.rst
+   Glossary/readme.rst
+

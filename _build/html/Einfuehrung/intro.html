@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
     <link rel="search" title="Suche" href="../search.html" />
+    <link rel="next" title="Glossary" href="../Glossary/readme.html" />
     <link rel="prev" title="Einführung" href="readme.html" /> 
 
   
@@ -95,8 +96,13 @@
 </li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#python">Python</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#sphinx">Sphinx</a></li>
 </ul>
 </li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Glossary/readme.html">Glossary</a></li>
 </ul>
 
             
@@ -165,6 +171,8 @@
             
   <div class="section" id="linux">
 <h1>Linux<a class="headerlink" href="#linux" title="Link zu dieser Überschrift">¶</a></h1>
+<a class="reference internal image-reference" href="../_images/linus.jpg"><img alt="../_images/linus.jpg" class="align-left" src="../_images/linus.jpg" style="width: 22%;" /></a>
+<a class="reference internal image-reference" href="../_images/linux.png"><img alt="../_images/linux.png" class="align-left" src="../_images/linux.png" style="width: 26%;" /></a>
 <p>1991 begann Linus Torvalds in Helsinki (Finnland) mit der Entwicklung, um unter anderem seinen eigenen Computer besser zu verstehen. Mit der Zeit merkte er, dass sich das System immer mehr zu einem Betriebssystem entwickelte. Heute ist Linux ein modular aufgebautes Betriebssystem und wird von Softwareentwicklern auf der ganzen Welt weiterentwickelt.</p>
 <p>Linux wird vielfältig eingesetzt, beispielsweise auf Smartphones, Notebooks, Multimedia-Endgeräten und Supercomputern.
 Dies bringt auch zahlreiche Nutzer mit sich, darunter private Personen (wie du und ich), Regierungen, Organisationen und Unternehmen.</p>
@@ -174,6 +182,10 @@ Dies bringt auch zahlreiche Nutzer mit sich, darunter private Personen (wie du u
 <p>Git ist eine freie Software zur verteilten Versionsverwaltuing von Dateien, die ebenfalls durch Linus Torvalds initiiert wurde. GitHub ist ein Onlinedienst, der unsere Entwicklungsprojekte auf seinen Servern bereitstellt (File-hosting). Die GitHub, Inc. hat ihren Sitz in San Francisco in den Vereinigten Staaten.</p>
 <p>GitHub war im Jahr 2011 bei Open-Source-Software der populärste Dienst seiner Art, gemessen an der Anzahl der Schreibzugriffe (Commits). Der Dienst hat über 31 Millionen (31’000’000) registrierte Nutzer und verwaltet 96 Millionen Repositories (Stand: Oktober 2019).
 Im Oktober 2016 berichtete die Zeitschrift Nature über die zunehmende Bedeutung von GitHub für den Austausch von wissenschaftlichen Daten. Im Jahr 2016 hätten ein Prozent aller Veröffentlichungen in der Informatik GitHub als Quelle zitiert, gefolgt von Mathematik und den Biowissenschaften.</p>
+<a class="reference internal image-reference" href="../_images/github.png"><img alt="../_images/github.png" class="align-left" src="../_images/github.png" style="width: 45%;" /></a>
+<a class="reference internal image-reference" href="../_images/walter.jpg"><img alt="../_images/walter.jpg" src="../_images/walter.jpg" style="width: 25%;" /></a>
+<a class="reference internal image-reference" href="../_images/spider.png"><img alt="../_images/spider.png" src="../_images/spider.png" style="width: 25%;" /></a>
+<p>✏️ ..und wie siehst du aus im Git-Universum? Suche dir <a class="reference external" href="https://octodex.github.com/">hier</a> eine Verkleidung aus</p>
 <div class="section" id="ein-repository-laden">
 <h2>Ein Repository laden<a class="headerlink" href="#ein-repository-laden" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Es gibt typischerweise zwei Möglichkeiten ein GitHub Repository zu erhalten:</p>
@@ -190,7 +202,7 @@ Im Oktober 2016 berichtete die Zeitschrift Nature über die zunehmende Bedeutung
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git clone git@gitlab.organisation:user/repository.git
 </pre></div>
 </div>
-<p>Findest du heraus, wie genau dein Befehl lauten muss?</p>
+<p>✏️ Findest du heraus, wie genau dein Befehl lauten muss?</p>
 </div>
 <div class="section" id="synchronisieren">
 <h3>Synchronisieren<a class="headerlink" href="#synchronisieren" title="Link zu dieser Überschrift">¶</a></h3>
@@ -209,6 +221,7 @@ Im Oktober 2016 berichtete die Zeitschrift Nature über die zunehmende Bedeutung
 <blockquote>
 <div><ol class="arabic simple">
 <li>Speichere deine Files im richtigen Ordner auf deinem Computer</li>
+<li><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">status</span></code> zeigt dir an, welche Dateien noch hinzugefügt werden müssen (🔴) und welche bereits im stage warten (✅)</li>
 <li><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">.</span></code></li>
 <li><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&quot;Beschreibe</span> <span class="pre">was</span> <span class="pre">bei</span> <span class="pre">diesem</span> <span class="pre">upload</span> <span class="pre">passiert&quot;</span></code></li>
 <li><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span></code></li>
@@ -227,6 +240,15 @@ Im Oktober 2016 berichtete die Zeitschrift Nature über die zunehmende Bedeutung
 </div>
 </div>
 </div>
+<div class="section" id="python">
+<h1>Python<a class="headerlink" href="#python" title="Link zu dieser Überschrift">¶</a></h1>
+<a class="reference internal image-reference" href="../_images/python.png"><img alt="../_images/python.png" class="align-left" src="../_images/python.png" style="width: 190px;" /></a>
+<p>Python ist eine weit verbreitete Programmiersprache und - wie du merken wirst - ganz einfach zu lernen! Heute wirst du in dieser Sprache eine eigene Webseite erstellen und darauf kuriose Programme laufen lassen!</p>
+<p>Die mächtige Bibliothek ist eine der grössten Stärken von Python. Wie in der Bücher-Bibliothek kannst du in der Python-Bibliothek stöbern und dir gewisse Pakete ausleihen, die von anderen Leuten geschrieben wurden. Diese Pakete unterhalten dich, helfen dir Aufgaben zu lösen oder zeigen die neue Möglichkeiten. Bevor du also etwas selber programmierst, gehe <strong>immer</strong> zuerst in die Bibliothek und schau dich um, ob es schon etwas passendes gibt! 📚</p>
+<div class="section" id="sphinx">
+<h2>Sphinx<a class="headerlink" href="#sphinx" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+</div>
 
 
            </div>
@@ -235,6 +257,8 @@ Im Oktober 2016 berichtete die Zeitschrift Nature über die zunehmende Bedeutung
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../Glossary/readme.html" class="btn btn-neutral float-right" title="Glossary" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="readme.html" class="btn btn-neutral" title="Einführung" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
