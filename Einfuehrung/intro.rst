@@ -70,3 +70,9 @@ Wenn du eine Datei im stage hast, die dort nicht hin gehört, kannst du diese au
 
  #. ``git reset HEAD deine_datei``
 
+
+Übersicht Git Stationen
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: images/git_operations.png
+   :width: 70%
