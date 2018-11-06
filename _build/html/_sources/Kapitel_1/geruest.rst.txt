@@ -1,0 +1,12 @@
+Erstelle dein eigenes Git Repository
+====================================
+
+Als erstes brauchst du einen GitHub Account, den du mit deinem persönlichen Octocat-Kostüm schmückst. |smile| Danach erstellst du ein *public repository* und klonst es, damit wir die Dateien lokal auf dem Computer bearbeiten können.
+
+|exercise| Erinnerst du dich an die einzelnen Schritte aus der Einführung? Wenn nicht, blättere einfach zurück...
+
+
+
+
+.. |smile| replace:: 😃
+.. |exercise| replace:: ✏️

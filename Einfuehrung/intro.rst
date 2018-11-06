@@ -12,7 +12,6 @@ Linux
 
 1991 begann Linus Torvalds in Helsinki (Finnland) mit der Entwicklung, um unter anderem seinen eigenen Computer besser zu verstehen. Mit der Zeit merkte er, dass sich das System immer mehr zu einem Betriebssystem entwickelte. Heute ist Linux ein modular aufgebautes Betriebssystem und wird von Softwareentwicklern auf der ganzen Welt weiterentwickelt.
 
-
 Linux wird vielfältig eingesetzt, beispielsweise auf Smartphones, Notebooks, Multimedia-Endgeräten und Supercomputern.
 Dies bringt auch zahlreiche Nutzer mit sich, darunter private Personen (wie du und ich), Regierungen, Organisationen und Unternehmen.
 
@@ -20,9 +19,9 @@ Dies bringt auch zahlreiche Nutzer mit sich, darunter private Personen (wie du u
 Git
 ===
 
-Git ist eine freie Software zur verteilten Versionsverwaltuing von Dateien, die ebenfalls durch Linus Torvalds initiiert wurde. GitHub ist ein Onlinedienst, der unsere Entwicklungsprojekte auf seinen Servern bereitstellt (File-hosting). Die GitHub, Inc. hat ihren Sitz in San Francisco in den Vereinigten Staaten.
+Git ist eine freie Software und wird dir helfen, deine Dateien zu verwalten. Auch dieses Tool hat Linus Torvaldsins Leben gerufen - es lohnt sich also, diesen Mann zu kennen |twinker|. GitHub ist ein Onlinedienst, der unsere Entwicklungsprojekte auf seinen Servern bereitstellt (File-hosting). Die GitHub, Inc. hat ihren Sitz in San Francisco in Amerika! Jedesmal, wenn du also Änderungen an deiner Page machst, geschehen diese Änderungen in San Francisco auf einem Computer und reisen den ganzen Weg über den Atlantik zurück auf deinen Bildschirm!
 
-GitHub war im Jahr 2011 bei Open-Source-Software der populärste Dienst seiner Art, gemessen an der Anzahl der Schreibzugriffe (Commits). Der Dienst hat über 31 Millionen (31'000'000) registrierte Nutzer und verwaltet 96 Millionen Repositories (Stand: Oktober 2019).
+GitHub war im Jahr 2011 bei Open-Source-Software der populärste Dienst seiner Art, gemessen an der Anzahl der Schreibzugriffe (Commits). Der Dienst hat über 31 Millionen (31'000'000) registrierte Nutzer und verwaltet 96 Millionen (96'000'000) Repositories (Stand: Oktober 2019).
 Im Oktober 2016 berichtete die Zeitschrift Nature über die zunehmende Bedeutung von GitHub für den Austausch von wissenschaftlichen Daten. Im Jahr 2016 hätten ein Prozent aller Veröffentlichungen in der Informatik GitHub als Quelle zitiert, gefolgt von Mathematik und den Biowissenschaften.
 
 .. image:: images/github.png
@@ -65,12 +64,6 @@ Um alle neuen Dateien zu downloaden und Änderungen zu erhalten, gib den folgend
 
 .. code-block:: bash
 
-   $ git pull master
-
-oder einfach
-
-.. code-block:: bash
-
    $ git pull
 
 Änderungen hochladen
@@ -110,6 +103,29 @@ Die mächtige Bibliothek ist eine der grössten Stärken von Python. Wie in der 
 Sphinx
 ------
 
+Wer - wie du heute - selbst an einem Projekt arbeitet, kennt das Problem, dass man später einmal vergisst, was man eigentlich gemacht hat. Dafür muss man Dokumentationen schreiben! ..und das machen wir mit Sphinx. Sphinx ist ein in Python geschriebens Tool (Hilfsmittel) und soll helfen, Python Projekte zu dokumentieren.
+
+Sphinx ist sehr leich anzuwenden, denn es verwendet reStructuredTest (reST) als Sprache. Mit reST kannst du auch in der Rohform leicht lesen und schreiben. SO werden zum Beispiel verschiedene Textelemente wie folgt gekennzeichnet:
+
+.. code-block:: bash
+
+   =====
+   TITEL
+   =====
+
+   Untertitel
+   ----------
+
+    * eine
+    * Liste
+    * von
+    * Sachen
+
+
+**BRAVO** |muscle| Du hast dich gut geschlagen und alle Tools kennengelernt, die wir brauchen ..auf geht's - gestalte deine eigene Page |rocket|!
+
+
+
 
 .. _hier: https://octodex.github.com/
 
@@ -118,3 +134,6 @@ Sphinx
 .. |grün| replace:: ✅
 .. |books| replace:: 📚
 .. |smile| replace:: 😃
+.. |muscle| replace:: 💪
+.. |rocket| replace:: 🚀
+.. |twinker| replace:: 😉
