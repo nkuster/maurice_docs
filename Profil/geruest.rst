@@ -3,7 +3,9 @@ Erstelle dein eigenes Git Repository
 
 Als erstes brauchst du einen GitHub Account, den du mit deinem persönlichen Octocat-Kostüm schmückst. |smile| Danach erstellst du ein *public repository* und klonst es, damit wir die Dateien lokal auf dem Computer bearbeiten können.
 
-.. todo:: |exercise| Erinnerst du dich an die einzelnen Schritte aus der Einführung? Wenn nicht, blättere einfach zurück...
+.. todo:: |exercise| Erstelle dein Git-Repository und klone es.
+
+   Erinnerst du dich an die einzelnen Schritte aus der Einführung? Wenn nicht, blättere einfach zurück...
 
 
 readme Datei
@@ -23,7 +25,6 @@ Alles richtig? Na dann los! |smile| Du kannst deine Page wie folgt anschauen:
 
    $ make html
    $ open _build/html/index.html
-
 
 Das sieht zugegeben noch etwas langweilig aus.. ab zum nächsten Schritt! Bring Farbe auf deine Page ..|rocket|
 

@@ -105,9 +105,5 @@ Nun kannst du die Teile zu einem neuen, sicheren Passwort kombinieren. Setze die
    print("Das neue Passwort ist: %s" % passwort)
 
 
-.. execute_code::
-   :hide_headers:
-   :linenos:
-
 .. |exercise| replace:: ✏️
 .. |muscle| replace:: 💪

@@ -89,6 +89,19 @@
 <li class="toctree-l1 current"><a class="reference internal" href="readme.html">Aufgabe 2</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Robot-Zeichner</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#prinzip">Prinzip</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#rechtecke-zeichnen">Rechtecke zeichnen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#den-roboter-zeichnen">Den Roboter zeichnen</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#die-fusse">Die Füsse</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#die-beine">Die Beine</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#der-oberkorper">Der Oberkörper</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#die-arme">Die Arme</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#der-hals">Der Hals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#der-kopf">Der Kopf</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#die-augen">Die Augen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#der-mund">Der Mund</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#die-turtle-verstecken">Die Turtle verstecken</a></li>
 </ul>
 </li>
 </ul>
@@ -166,6 +179,171 @@
 <p>Führst du das Programm aus aus, legt die Python-Turtle los und bewegt sich über den Bildschirm. Dabei wird ein Roboter gezeichnet. Du siehst zu, wie der Roboter Stück für Stück in verschiedenen Farben entsteht.</p>
 <div class="section" id="prinzip">
 <h2>Prinzip<a class="headerlink" href="#prinzip" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Zuerst schreibst du eine Funktion, die Rechtecke zeichnet. Dann stelsst du die Rechtecke zu einem Roboter zusammen. Ihre Farbe und Grösse kannst du anhand der Parameter ändern, die3 dur der Funktion übergibst. Lange, dünne Rechtecke können also die Beine bilden, quadratische die Augen und so weiter.</p>
+<div class="admonition note">
+<p class="first admonition-title">Bemerkung</p>
+<p class="last">Mit dem Modul <code class="docutils literal notranslate"><span class="pre">turtle</span></code> steuerst du eine Roboterschildkröte, die einen Stift bei sich trägt. Du kannst Turtle sagen, wann sie den Stift aufsetzen und zeichnen soll und wann sie ihn heben soll, sodass sie sich an eine neue Position begeben kann, ohne eine Spur zu hinterlassen.</p>
+</div>
+<p>Die Turtle geht zum Beispiel 100 Pixel vorwärts, dreht sich um 90 Grad und geht 50 Pixel vorwärts mit folgendem Befehl:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">t</span><span class="o">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">t</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="rechtecke-zeichnen">
+<h2>Rechtecke zeichnen<a class="headerlink" href="#rechtecke-zeichnen" title="Link zu dieser Überschrift">¶</a></h2>
+<div class="admonition-todo admonition" id="index-0">
+<p class="first admonition-title">Zu tun</p>
+<p>✏️ Lade in deinem neuen Programm das Modul <code class="docutils literal notranslate"><span class="pre">turtle</span></code> aus der Bibliothek.</p>
+<p class="last">Tipp: Du kannst dem Modul eine Abkürzung zuordnen, dann musst du den Namen nicht mehr ausschreiben und sparst dir eine Menge Tipparbeit! 😃</p>
+</div>
+<p>Nun erstellen wir die Funktion, die die Rechtecke für die Roboter zeichnet. Sie hat drei Parameter:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>die Länge der horizontalen Seite</li>
+<li>die Länge der vertikalen Seite</li>
+<li>die Farbe</li>
+</ol>
+</div></blockquote>
+<p>Du verwendest eine Schleife, die bei jedem Durchlauf eine orizontale und eine vertikale Seite zeichnet, und du lässt sie zweimal laufen.</p>
+<p>Der Code lautet:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">rectangle</span><span class="p">(</span><span class="n">horizontal</span><span class="p">,</span> <span class="n">vertical</span><span class="p">,</span> <span class="n">color</span><span class="p">):</span>
+
+    <span class="n">t</span><span class="o">.</span><span class="n">pendown</span><span class="p">()</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">pensize</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">color</span><span class="p">(</span><span class="n">color</span><span class="p">)</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">begin_fill</span><span class="p">()</span>
+
+    <span class="c1"># dieser Block zeichnet das Rechteck</span>
+    <span class="k">for</span> <span class="n">counter</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">):</span>
+
+        <span class="n">t</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="n">horizontal</span><span class="p">)</span>
+        <span class="n">t</span><span class="o">.</span><span class="n">right</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+        <span class="n">t</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="n">vertical</span><span class="p">)</span>
+        <span class="n">t</span><span class="o">.</span><span class="n">right</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+
+    <span class="n">t</span><span class="o">.</span><span class="n">end_fill</span><span class="p">()</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">penup</span><span class="p">()</span>
+
+    <span class="n">t</span><span class="o">.</span><span class="n">speed</span><span class="p">(</span><span class="s1">&#39;slow&#39;</span><span class="p">)</span>
+
+    <span class="c1"># Hintergrundfarbe wählen</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">bgcolor</span><span class="p">(</span><span class="s1">&#39;Dodger blue&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Bemerkung</p>
+<p>Turtle Modus</p>
+<a class="reference internal image-reference" href="../_images/degrees.png"><img alt="../_images/degrees.png" class="align-left" src="../_images/degrees.png" style="width: 200px;" /></a>
+<p>Du verwendest die Turtle hier im Standard-Modus. Das heisst, die Turtle blickt zuerst zur rechten Bildschirmseite. Setzt du <code class="docutils literal notranslate"><span class="pre">heading</span></code> auf 0, startet sie also nach rechts.</p>
+<p>Die Turtle ist normalerweise eine Pfeilspitze. Die folgende Code-Zeile gibt ihr die Form einer Schildkröte:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">shape</span><span class="p">(</span><span class="s1">&#39;turtle&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p class="last">Mit dem Befehl <code class="docutils literal notranslate"><span class="pre">t.speed()</span></code> legst du fest, wie schnell die Turtle unterwegs ist. Von sehr langsam bis sehr schnell gibt es hier die Werte: ‚slowest‘, ‚slow‘, ‚normal‘, ‚fast‘ und ‚fastest‘.</p>
+</div>
+</div>
+<div class="section" id="den-roboter-zeichnen">
+<h2>Den Roboter zeichnen<a class="headerlink" href="#den-roboter-zeichnen" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Nun kannst du den Roboter zeichnen. Er wird Stück für Stück gezeichnet, von den Füssen bis hinauf zum Kopf.</p>
+<div class="section" id="die-fusse">
+<h3>Die Füsse<a class="headerlink" href="#die-fusse" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Du musst die Turtle an den Punkt bewegen, an dem der erste Fuss gezeichnet werden soll. Dann muss er mit der Rechteck-Funktion gezeichnet werden. Das gleiche musst du für den zweiten Fuss machen.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Füsse</span>
+<span class="n">t</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="o">-</span><span class="mi">100</span><span class="p">,</span> <span class="o">-</span><span class="mi">150</span><span class="p">)</span>
+<span class="n">rectangle</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="s1">&#39;blue&#39;</span><span class="p">)</span>
+
+<span class="n">t</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="o">-</span><span class="mi">30</span><span class="p">,</span> <span class="o">-</span><span class="mi">150</span><span class="p">)</span>
+<span class="n">rectangle</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="s1">&#39;blue&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="die-beine">
+<h3>Die Beine<a class="headerlink" href="#die-beine" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Der nächste Programmabschnitt bewegt die Turtle dorthin, wo sie die Beine zeichnen soll.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Beine</span>
+<span class="n">t</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="o">-</span><span class="mi">25</span><span class="p">,</span> <span class="o">-</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">rectangle</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="s1">&#39;grey&#39;</span><span class="p">)</span>
+
+<span class="n">t</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="o">-</span><span class="mi">55</span><span class="p">,</span> <span class="o">-</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">rectangle</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="s1">&#39;grey&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="der-oberkorper">
+<h3>Der Oberkörper<a class="headerlink" href="#der-oberkorper" title="Link zu dieser Überschrift">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Rumpf</span>
+<span class="n">t</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="o">-</span><span class="mi">90</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+<span class="n">rectangle</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">150</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="die-arme">
+<h3>Die Arme<a class="headerlink" href="#die-arme" title="Link zu dieser Überschrift">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Rechter Oberarm und Unterarm</span>
+<span class="n">t</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="o">-</span><span class="mi">150</span><span class="p">,</span> <span class="mi">70</span><span class="p">)</span>
+<span class="n">rectangle</span><span class="p">(</span><span class="mi">60</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="s1">&#39;grey&#39;</span><span class="p">)</span>
+
+<span class="n">t</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="o">-</span><span class="mi">150</span><span class="p">,</span> <span class="mi">110</span><span class="p">)</span>
+<span class="n">rectangle</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="s1">&#39;grey&#39;</span><span class="p">)</span>
+
+<span class="c1"># Linker Oberarm und Unterarm</span>
+<span class="n">t</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">70</span><span class="p">)</span>
+<span class="n">rectangle</span><span class="p">(</span><span class="mi">60</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="s1">&#39;grey&#39;</span><span class="p">)</span>
+
+<span class="n">t</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="mi">55</span><span class="p">,</span> <span class="mi">110</span><span class="p">)</span>
+<span class="n">rectangle</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="s1">&#39;grey&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="der-hals">
+<h3>Der Hals<a class="headerlink" href="#der-hals" title="Link zu dieser Überschrift">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Hals</span>
+<span class="n">t</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="o">-</span><span class="mi">50</span><span class="p">,</span> <span class="mi">120</span><span class="p">)</span>
+<span class="n">rectangle</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="s1">&#39;grey&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="der-kopf">
+<h3>Der Kopf<a class="headerlink" href="#der-kopf" title="Link zu dieser Überschrift">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Kopf</span>
+<span class="n">t</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="o">-</span><span class="mi">85</span><span class="p">,</span> <span class="mi">170</span><span class="p">)</span>
+<span class="n">rectangle</span><span class="p">(</span><span class="mi">80</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="die-augen">
+<h3>Die Augen<a class="headerlink" href="#die-augen" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Fügen wir noch zwei Augen ein, damit der Roboter sieht, wohin er geht! 😃 Dazu zeichnest du ein grosses, weisses Rechteck mit zwei kleineren Quadraten darin (die Pupillen).</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Augen</span>
+<span class="n">t</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="o">-</span><span class="mi">60</span><span class="p">,</span> <span class="mi">160</span><span class="p">)</span>
+<span class="n">rectangle</span><span class="p">(</span><span class="mi">30</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="s1">&#39;white&#39;</span><span class="p">)</span>
+
+<span class="c1"># Pupillen</span>
+<span class="n">t</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="o">-</span><span class="mi">55</span><span class="p">,</span> <span class="mi">155</span><span class="p">)</span>
+<span class="n">rectangle</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;black&#39;</span><span class="p">)</span>
+<span class="n">t</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="o">-</span><span class="mi">40</span><span class="p">,</span> <span class="mi">155</span><span class="p">)</span>
+<span class="n">rectangle</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;black&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="der-mund">
+<h3>Der Mund<a class="headerlink" href="#der-mund" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Zeichne dem Roboter noch einen Mund.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Mund</span>
+<span class="n">t</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="o">-</span><span class="mi">65</span><span class="p">,</span> <span class="mi">135</span><span class="p">)</span>
+<span class="n">rectangle</span><span class="p">(</span><span class="mi">40</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;black&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="die-turtle-verstecken">
+<h2>Die Turtle verstecken<a class="headerlink" href="#die-turtle-verstecken" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Nun musst du die Turtle verstecken, sonst sitzt sie mitten im Gesicht des Roboters und das wäre doch seltsam.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">hideturtle</span><span class="p">()</span>
+</pre></div>
+</div>
 </div>
 </div>
 
