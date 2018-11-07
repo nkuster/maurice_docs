@@ -14,5 +14,6 @@ Zukunftstag Maurice Fischer
 
    Einfuehrung/readme.rst
    Profil/readme.rst
-   Glossary/readme.rst
+   Passwort/readme.rst
+
 

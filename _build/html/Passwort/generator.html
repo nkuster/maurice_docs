@@ -1,0 +1,308 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="de" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="de" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Passwort-Generator &mdash; Zukunftstag Maurice 1.2 Dokumentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="prev" title="Aufgabe 1" href="readme.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Zukunftstag Maurice
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Einfuehrung/readme.html">Einführung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Profil/readme.html">Grundgerüst deiner Page</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="readme.html">Aufgabe 1</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Passwort-Generator</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#prinzip">Prinzip</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#module-einfugen">Module einfügen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#wortlisten">Wortlisten</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Zukunftstag Maurice</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="readme.html">Aufgabe 1</a> &raquo;</li>
+        
+      <li>Passwort-Generator</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/Passwort/generator.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="passwort-generator">
+<h1>Passwort-Generator<a class="headerlink" href="#passwort-generator" title="Link zu dieser Überschrift">¶</a></h1>
+<p>Passwörter schützen deinen Computer, deine E-Mails und deine Daten vor fremdem Zugriff. In deiner ersten Aufgabe erstellst du ein Tool (Werkzeug), das für dich sichere und einprägsame Passwörter erfindet.</p>
+<p>Mit dem Passwort-Generator kannst du Wörter, Zahlen und Zeichen zu starken Passwörtern kombinieren. Wenn du das Programm ausführst, zeigt es ein Passwort an. Du kannst dir weitere Passwörter erstellen lassen, bis dir eins gefällt.</p>
+<p>Gute Passwörter sind leicht zu merken, aber schwer zu erraten - oder zu knacken. Schauen wir uns einmal ein paar Beispiele an:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/lock1.png"><img alt="../_images/lock1.png" src="../_images/lock1.png" style="width: 125px;" /></a>
+</td>
+<td>Namen sind zwar leicht zu merken, aber dafür auch leicht zu erraten..</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/lock2.png"><img alt="../_images/lock2.png" src="../_images/lock2.png" style="width: 125px;" /></a>
+</td>
+<td>Etwas komplizierter, aber Hacker können es in 2 Sekunden knacken!</td>
+</tr>
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/lock3.png"><img alt="../_images/lock3.png" src="../_images/lock3.png" style="width: 125px;" /></a>
+</td>
+<td>Bei diesem Passwort braucht der Hacker etwas Zeit..</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/lock4.png"><img alt="../_images/lock4.png" src="../_images/lock4.png" style="width: 125px;" /></a>
+</td>
+<td>Dieses ist sicher und leicht zu merken!</td>
+</tr>
+</tbody>
+</table>
+<p>In dieser Aufgabe lernst du das Modul <code class="docutils literal notranslate"><span class="pre">random</span></code> kennen. Das Programm trifft aus Gruppen von Adjektiven, Nomen, Zahlen und Satzzeichen eine zufällige Auswahl und kombiniert daraus Passwörter. Deine Passwörter sind ab jetzt so irre, dass du sie nie vergessen wirst!</p>
+<div class="admonition note">
+<p class="first admonition-title">Bemerkung</p>
+<p class="last"><strong>Adjektiv</strong> + <strong>Nomen</strong> + <strong>Zahl</strong> + <strong>Satzzeichen</strong></p>
+</div>
+<div class="line-block">
+<div class="line">Adjektiv   = Eigenschaftswort (z.B. schlafend, flauschig, haarig)</div>
+<div class="line">Substantiv = Nomen (z.B. Apfel, Fahrrad, Dinosaurier)</div>
+</div>
+<div class="section" id="prinzip">
+<h2>Prinzip<a class="headerlink" href="#prinzip" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Das Programm wählt die vier Teile des Passworts zufällig aus, setzt sie zusammen und zeigt das Passwort im Shell-Fenster an. Wenn du das Passwort nicht magst, wiederholt es die Schritte, gefällt es dir, endet das Programm.</p>
+<div class="section" id="module-einfugen">
+<h3>Module einfügen<a class="headerlink" href="#module-einfugen" title="Link zu dieser Überschrift">¶</a></h3>
+<div class="admonition-todo admonition" id="index-0">
+<p class="first admonition-title">Zu tun</p>
+<p>✏️ Wie erwähnt, müssen wir nicht das ganze Programm selber schreiben! Wir gehen einfach einmal in die Bibliothek und schauen uns ein wenig um. Denke daran, dass du zwei dinge brauchst: ein Modul, dass Worte auch als solche erkennt und ein weiteres Modul, dass den Zufallsgenerator spielt.</p>
+<p>Findest du aus den untenstehenden Modulen die richtigen?</p>
+<p class="last"><code class="docutils literal notranslate"><span class="pre">pandas</span></code> ; <code class="docutils literal notranslate"><span class="pre">random</span></code> ; <code class="docutils literal notranslate"><span class="pre">os</span></code> ; <code class="docutils literal notranslate"><span class="pre">string</span></code> ; <code class="docutils literal notranslate"><span class="pre">numpy</span></code></p>
+</div>
+<p>Die Module kannst du gerade zu Beginn aus der Bibliothek importieren, denn dann kannst du sie später ohne weiteren Aufwand im Code verwenden.</p>
+</div>
+<div class="section" id="wortlisten">
+<h3>Wortlisten<a class="headerlink" href="#wortlisten" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Zum Erstellen neuer Passwörter brauchst du eine Liste für Adjektive und eine für Nomen. In Python kannst du zusammengehörige Elemente in Listen speichern. Setze die ganze Liste in <code class="docutils literal notranslate"><span class="pre">[]</span></code>-Klammern und trenne die Elemente durch Kommas.</p>
+<div class="section" id="adjektive">
+<h4>Adjektive<a class="headerlink" href="#adjektive" title="Link zu dieser Überschrift">¶</a></h4>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">die_adjektive</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;schläfrig&#39;</span><span class="p">,</span> <span class="s1">&#39;lahm&#39;</span><span class="p">,</span> <span class="s1">&#39;rot&#39;</span><span class="p">,</span> <span class="s1">&#39;tapfer&#39;</span><span class="p">,</span> <span class="s1">&#39;flauschig&#39;</span><span class="p">,</span> <span class="s1">&#39;stolz&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="nomen">
+<h4>Nomen<a class="headerlink" href="#nomen" title="Link zu dieser Überschrift">¶</a></h4>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">die_nomen</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Apfel&#39;</span><span class="p">,</span> <span class="s1">&#39;Dinosaurier&#39;</span><span class="p">,</span> <span class="s1">&#39;Drachen&#39;</span><span class="p">,</span> <span class="s1">&#39;Panda&#39;</span><span class="p">,</span> <span class="s1">&#39;Kartoffel&#39;</span><span class="p">,</span> <span class="s1">&#39;Haus&#39;</span><span class="p">,</span> <span class="s1">&#39;Mixer&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Für dein Passwort muss das Programm zufällig ein Adjektiv und ein Nomen auswählen. Dazu verwendest du die Funktion <code class="docutils literal notranslate"><span class="pre">choice()</span></code> (englisch für ‚Auswahl‘) im Modul <code class="docutils literal notranslate"><span class="pre">random</span></code>. Mit dieser Funktion kannst du immer zufällige Elemente aus einer Liste wählen lassen. Du musst ihr nur die Variable mit den Elementen übergeben.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># die Variable &#39;adjektiv&#39; enthält ein zufällig gewähltes Element aus der Adjektiv-Liste</span>
+<span class="n">adjektiv</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">die_adjektive</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition-todo admonition" id="index-1">
+<p class="first admonition-title">Zu tun</p>
+<p class="last">✏️ Definiere mit Hilfe der obigen Beschreibung für <code class="docutils literal notranslate"><span class="pre">adjektiv</span></code> die Variable <code class="docutils literal notranslate"><span class="pre">nomen</span></code> und füge sie direkt in deinen Code!</p>
+</div>
+<div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span>
+</pre></div>
+</td></tr></table></div>
+<div class="highlight-none notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span>
+</pre></div>
+</td></tr></table></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="readme.html" class="btn btn-neutral" title="Aufgabe 1" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Natalie Kuster
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/translations.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
