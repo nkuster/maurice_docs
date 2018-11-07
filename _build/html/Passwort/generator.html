@@ -90,8 +90,11 @@
 <li class="toctree-l3"><a class="reference internal" href="#prinzip">Prinzip</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#module-einfugen">Module einfügen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#wortlisten">Wortlisten</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#zufallige-zahlen">Zufällige Zahlen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#satzzeichen">Satzzeichen</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#das-neue-passwort">Das neue Passwort</a></li>
 </ul>
 </li>
 </ul>
@@ -209,7 +212,7 @@
 <p class="first admonition-title">Zu tun</p>
 <p>✏️ Wie erwähnt, müssen wir nicht das ganze Programm selber schreiben! Wir gehen einfach einmal in die Bibliothek und schauen uns ein wenig um. Denke daran, dass du zwei dinge brauchst: ein Modul, dass Worte auch als solche erkennt und ein weiteres Modul, dass den Zufallsgenerator spielt.</p>
 <p>Findest du aus den untenstehenden Modulen die richtigen?</p>
-<p class="last"><code class="docutils literal notranslate"><span class="pre">pandas</span></code> ; <code class="docutils literal notranslate"><span class="pre">random</span></code> ; <code class="docutils literal notranslate"><span class="pre">os</span></code> ; <code class="docutils literal notranslate"><span class="pre">string</span></code> ; <code class="docutils literal notranslate"><span class="pre">numpy</span></code></p>
+<p class="last"><code class="docutils literal notranslate"><span class="pre">pandas</span></code> ; <code class="docutils literal notranslate"><span class="pre">random</span></code> ; <code class="docutils literal notranslate"><span class="pre">os</span></code> ; <code class="docutils literal notranslate"><span class="pre">string</span></code> ; <code class="docutils literal notranslate"><span class="pre">numpy</span></code> ; <code class="docutils literal notranslate"><span class="pre">turtle</span></code> ; <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code></p>
 </div>
 <p>Die Module kannst du gerade zu Beginn aus der Bibliothek importieren, denn dann kannst du sie später ohne weiteren Aufwand im Code verwenden.</p>
 </div>
@@ -236,14 +239,39 @@
 <p class="first admonition-title">Zu tun</p>
 <p class="last">✏️ Definiere mit Hilfe der obigen Beschreibung für <code class="docutils literal notranslate"><span class="pre">adjektiv</span></code> die Variable <code class="docutils literal notranslate"><span class="pre">nomen</span></code> und füge sie direkt in deinen Code!</p>
 </div>
+</div>
+</div>
+<div class="section" id="zufallige-zahlen">
+<h3>Zufällige Zahlen<a class="headerlink" href="#zufallige-zahlen" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Nun fehlt uns noch die zufällige Zahl. Mit der Funktion <code class="docutils literal notranslate"><span class="pre">randrange()</span></code> aus dem Modul <code class="docutils literal notranslate"><span class="pre">random</span></code> kannst du nun eine Zahl zwischen 0 und 99 wählen.</p>
+</div>
+<div class="section" id="satzzeichen">
+<h3>Satzzeichen<a class="headerlink" href="#satzzeichen" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Mit der Funktion <code class="docutils literal notranslate"><span class="pre">random.choice()</span></code> kannst du per Zufall ein Satzzeichen auswählen - so ist das Passwort noch schwerer zu knacken!</p>
+<div class="admonition note">
+<p class="first admonition-title">Bemerkung</p>
+<p class="last">Eine Konstante ist eine besondere Variable mit unveränderlichem Inhalt. Die Konstante <code class="docutils literal notranslate"><span class="pre">string.punctuation</span></code> enthält einen string aus lauter Satzzeichzen. Der Inhalt wird angezeigt, wenn du in der Kommandozeile tippst: <code class="docutils literal notranslate"><span class="pre">print(string.punctuation)</span></code></p>
+</div>
+<div class="admonition-todo admonition" id="index-2">
+<p class="first admonition-title">Zu tun</p>
+<p>✏️ Setze die geforderte Code-Zeile für die zufällige Zahl und dfas zufällige Satzzeichen direkt ans Ende deines Codes.</p>
+<p class="last">Geschafft? Wenn du dir nicht sicher bist, lies noch einmal in den oberen Abschnitten nach..</p>
+</div>
+</div>
+</div>
+<div class="section" id="das-neue-passwort">
+<h2>Das neue Passwort<a class="headerlink" href="#das-neue-passwort" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Nun kannst du die Teile zu einem neuen, sicheren Passwort kombinieren. Setze die folgen Codezeilen ans Ende des Programms</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">passwort</span> <span class="o">=</span> <span class="n">adjektiv</span> <span class="o">+</span> <span class="n">nomen</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">zahl</span><span class="p">)</span> <span class="o">+</span> <span class="n">sonderzeichen</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Das neue Passwort ist: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">passwort</span><span class="p">)</span>
+</pre></div>
+</div>
 <div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span>
 </pre></div>
 </td></tr></table></div>
 <div class="highlight-none notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 </div>
 </div>
 

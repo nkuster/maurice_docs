@@ -45,7 +45,7 @@ Module einfügen
 
    Findest du aus den untenstehenden Modulen die richtigen?
 
-   ``pandas`` ; ``random`` ; ``os`` ; ``string`` ; ``numpy``
+   ``pandas`` ; ``random`` ; ``os`` ; ``string`` ; ``numpy`` ; ``turtle`` ; ``matplotlib``
 
 Die Module kannst du gerade zu Beginn aus der Bibliothek importieren, denn dann kannst du sie später ohne weiteren Aufwand im Code verwenden.
 
@@ -77,9 +77,32 @@ Für dein Passwort muss das Programm zufällig ein Adjektiv und ein Nomen auswä
 
 .. todo:: |exercise| Definiere mit Hilfe der obigen Beschreibung für ``adjektiv`` die Variable ``nomen`` und füge sie direkt in deinen Code!
 
+Zufällige Zahlen
+^^^^^^^^^^^^^^^^
+
+Nun fehlt uns noch die zufällige Zahl. Mit der Funktion ``randrange()`` aus dem Modul ``random`` kannst du nun eine Zahl zwischen 0 und 99 wählen.
+
+Satzzeichen
+^^^^^^^^^^^
+
+Mit der Funktion ``random.choice()`` kannst du per Zufall ein Satzzeichen auswählen - so ist das Passwort noch schwerer zu knacken!
+
+.. note:: Eine Konstante ist eine besondere Variable mit unveränderlichem Inhalt. Die Konstante ``string.punctuation`` enthält einen string aus lauter Satzzeichzen. Der Inhalt wird angezeigt, wenn du in der Kommandozeile tippst: ``print(string.punctuation)``
 
 
+.. todo:: |exercise| Setze die geforderte Code-Zeile für die zufällige Zahl und dfas zufällige Satzzeichen direkt ans Ende deines Codes.
 
+   Geschafft? Wenn du dir nicht sicher bist, lies noch einmal in den oberen Abschnitten nach..
+
+Das neue Passwort
+-----------------
+
+Nun kannst du die Teile zu einem neuen, sicheren Passwort kombinieren. Setze die folgen Codezeilen ans Ende des Programms
+
+.. code-block:: python
+
+   passwort = adjektiv + nomen + str(zahl) + sonderzeichen
+   print("Das neue Passwort ist: %s" % passwort)
 
 
 .. execute_code::
@@ -87,3 +110,4 @@ Für dein Passwort muss das Programm zufällig ein Adjektiv und ein Nomen auswä
    :linenos:
 
 .. |exercise| replace:: ✏️
+.. |muscle| replace:: 💪

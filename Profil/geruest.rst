@@ -3,7 +3,7 @@ Erstelle dein eigenes Git Repository
 
 Als erstes brauchst du einen GitHub Account, den du mit deinem persönlichen Octocat-Kostüm schmückst. |smile| Danach erstellst du ein *public repository* und klonst es, damit wir die Dateien lokal auf dem Computer bearbeiten können.
 
-|exercise| Erinnerst du dich an die einzelnen Schritte aus der Einführung? Wenn nicht, blättere einfach zurück...
+.. todo:: |exercise| Erinnerst du dich an die einzelnen Schritte aus der Einführung? Wenn nicht, blättere einfach zurück...
 
 
 readme Datei
@@ -12,8 +12,23 @@ readme Datei
 Als readme oder "Lies mich" wird eine Datei bezeichnet, die überlicherweise mit der Software mitgeliefert wird und wichtige Informationen über diese enthält. Oft wird der Benutzer vor der Installation und vor der ersten Verwendung der Software über wichtige Details informiert, die für den Gebrauch wichtig sind.
 Wir werden in diese Datei dein Inhaltsverzeichnis schreiben, damit sich alle User auf deiner Page auch gut zurecht finden!
 
+Deine Homepage berechnen
+------------------------
+
+Um deine Notizen und Bilder in eine Homepage zu verwandeln, musst du einige Befehle über die Konsole eingeben. Kontrolliere als erstes, ob du im richtigen Ordner bist.
+
+Alles richtig? Na dann los! |smile| Du kannst deine Page wie folgt anschauen:
+
+.. code-block:: bash
+
+   $ make html
+   $ open _build/html/index.html
+
+
+Das sieht zugegeben noch etwas langweilig aus.. ab zum nächsten Schritt! Bring Farbe auf deine Page ..|rocket|
+
 Template
---------
+^^^^^^^^
 
 Template ist ein englisches Wort für *Schablone*. Diese Schablone stellt eine Art Gerüst dar, das einen Teil der Gestaltung deiner Page vorgibt. Du kannst die fehlenden Teile nur noch einsetzen und so die Vorlage zu einer vollständigen Homepage ergänzen.
 
@@ -43,7 +58,9 @@ Das template fügen wir in den Konfigurationen, sprich den *Einstellungen*, ein.
    }
 
 
-|exercise| Findest du die Stelle im ``config.py`` file? Kopiere den Code rein und schaue dir dein neues Template an! |smile|
+.. todo:: |exercise| Findest du die Stelle im ``config.py`` file? Kopiere den Code rein und schaue dir dein neues Template an!
+
+   Besser, oder? Gut gemacht! |muscle|
 
 
 
@@ -53,3 +70,5 @@ Das template fügen wir in den Konfigurationen, sprich den *Einstellungen*, ein.
 
 .. |smile| replace:: 😃
 .. |exercise| replace:: ✏️
+.. |muscle| replace:: 💪
+.. |rocket| replace:: 🚀

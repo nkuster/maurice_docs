@@ -88,7 +88,10 @@
 <li class="toctree-l1 current"><a class="reference internal" href="readme.html">Grundgerüst deiner Page</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Erstelle dein eigenes Git Repository</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#readme-datei">readme Datei</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#template">Template</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#deine-homepage-berechnen">Deine Homepage berechnen</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#template">Template</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -163,14 +166,26 @@
   <div class="section" id="erstelle-dein-eigenes-git-repository">
 <h1>Erstelle dein eigenes Git Repository<a class="headerlink" href="#erstelle-dein-eigenes-git-repository" title="Link zu dieser Überschrift">¶</a></h1>
 <p>Als erstes brauchst du einen GitHub Account, den du mit deinem persönlichen Octocat-Kostüm schmückst. 😃 Danach erstellst du ein <em>public repository</em> und klonst es, damit wir die Dateien lokal auf dem Computer bearbeiten können.</p>
-<p>✏️ Erinnerst du dich an die einzelnen Schritte aus der Einführung? Wenn nicht, blättere einfach zurück…</p>
+<div class="admonition-todo admonition" id="index-0">
+<p class="first admonition-title">Zu tun</p>
+<p class="last">✏️ Erinnerst du dich an die einzelnen Schritte aus der Einführung? Wenn nicht, blättere einfach zurück…</p>
+</div>
 <div class="section" id="readme-datei">
 <h2>readme Datei<a class="headerlink" href="#readme-datei" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Als readme oder „Lies mich“ wird eine Datei bezeichnet, die überlicherweise mit der Software mitgeliefert wird und wichtige Informationen über diese enthält. Oft wird der Benutzer vor der Installation und vor der ersten Verwendung der Software über wichtige Details informiert, die für den Gebrauch wichtig sind.
 Wir werden in diese Datei dein Inhaltsverzeichnis schreiben, damit sich alle User auf deiner Page auch gut zurecht finden!</p>
 </div>
+<div class="section" id="deine-homepage-berechnen">
+<h2>Deine Homepage berechnen<a class="headerlink" href="#deine-homepage-berechnen" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Um deine Notizen und Bilder in eine Homepage zu verwandeln, musst du einige Befehle über die Konsole eingeben. Kontrolliere als erstes, ob du im richtigen Ordner bist.</p>
+<p>Alles richtig? Na dann los! 😃 Du kannst deine Page wie folgt anschauen:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ make html
+$ open _build/html/index.html
+</pre></div>
+</div>
+<p>Das sieht zugegeben noch etwas langweilig aus.. ab zum nächsten Schritt! Bring Farbe auf deine Page ..|rocket|</p>
 <div class="section" id="template">
-<h2>Template<a class="headerlink" href="#template" title="Link zu dieser Überschrift">¶</a></h2>
+<h3>Template<a class="headerlink" href="#template" title="Link zu dieser Überschrift">¶</a></h3>
 <p>Template ist ein englisches Wort für <em>Schablone</em>. Diese Schablone stellt eine Art Gerüst dar, das einen Teil der Gestaltung deiner Page vorgibt. Du kannst die fehlenden Teile nur noch einsetzen und so die Vorlage zu einer vollständigen Homepage ergänzen.</p>
 <p>Das template fügen wir in den Konfigurationen, sprich den <em>Einstellungen</em>, ein. Diese Datei heisst <code class="docutils literal notranslate"><span class="pre">config.py</span></code>. Dort fügst du an gegebener Stelle den folgenden Code ein:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_theme</span> <span class="o">=</span> <span class="s1">&#39;sphinx_rtd_theme&#39;</span>
@@ -195,7 +210,12 @@ Wir werden in diese Datei dein Inhaltsverzeichnis schreiben, damit sich alle Use
 <span class="p">}</span>
 </pre></div>
 </div>
-<p>✏️ Findest du die Stelle im <code class="docutils literal notranslate"><span class="pre">config.py</span></code> file? Kopiere den Code rein und schaue dir dein neues Template an! 😃</p>
+<div class="admonition-todo admonition" id="index-1">
+<p class="first admonition-title">Zu tun</p>
+<p>✏️ Findest du die Stelle im <code class="docutils literal notranslate"><span class="pre">config.py</span></code> file? Kopiere den Code rein und schaue dir dein neues Template an!</p>
+<p class="last">Besser, oder? Gut gemacht! 💪</p>
+</div>
+</div>
 </div>
 </div>
 
