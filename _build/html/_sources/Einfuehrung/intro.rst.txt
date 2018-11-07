@@ -10,19 +10,28 @@ Linux
    :width: 26%
    :align: left
 
-1991 begann Linus Torvalds in Helsinki (Finnland) mit der Entwicklung, um unter anderem seinen eigenen Computer besser zu verstehen. Mit der Zeit merkte er, dass sich das System immer mehr zu einem Betriebssystem entwickelte. Heute ist Linux ein modular aufgebautes Betriebssystem und wird von Softwareentwicklern auf der ganzen Welt weiterentwickelt.
+1991 begann Linus Torvalds in Helsinki (Finnland) mit der Entwicklung von Linux, um unter anderem seinen eigenen Computer besser zu verstehen. Mit der Zeit merkte er, dass sich das System immer mehr zu einem Betriebssystem entwickelte. Heute ist Linux ein modular aufgebautes Betriebssystem und wird von Softwareentwicklern auf der ganzen Welt weiterentwickelt.
 
-Linux wird vielfältig eingesetzt, beispielsweise auf Smartphones, Notebooks, Multimedia-Endgeräten und Supercomputern.
+.. note:: *Modulares Betriebssystem* bedeutet, dass das Betriebssystem des Computers aus einzelnen Bausteinen (Modulen) besteht. Stell dir einfach vor, du würdest dir verschiedene Legosteine aussuchen und zusammenstecken - genau so machst du es mit Modulen, um dein perfektes Betriebssystem zu generieren.
+
+Linux wird fast überall eingesetzt, beispielsweise auf Smartphones, Notebooks, Multimedia-Endgeräten und Supercomputern.
 Dies bringt auch zahlreiche Nutzer mit sich, darunter private Personen (wie du und ich), Regierungen, Organisationen und Unternehmen.
 
 
 Git
 ===
 
-Git ist eine freie Software und wird dir helfen, deine Dateien zu verwalten. Auch dieses Tool hat Linus Torvaldsins Leben gerufen - es lohnt sich also, diesen Mann zu kennen |twinker|. GitHub ist ein Onlinedienst, der unsere Entwicklungsprojekte auf seinen Servern bereitstellt (File-hosting). Die GitHub, Inc. hat ihren Sitz in San Francisco in Amerika! Jedesmal, wenn du also Änderungen an deiner Page machst, geschehen diese Änderungen in San Francisco auf einem Computer und reisen den ganzen Weg über den Atlantik zurück auf deinen Bildschirm!
+Git ist eine freie Software - also gratis - und wird dir helfen, deine Dateien zu verwalten. Auch dieses Tool hat Linus Torvalds ins Leben gerufen - es lohnt sich also, diesen Mann zu kennen |twinker|.
 
-GitHub war im Jahr 2011 bei Open-Source-Software der populärste Dienst seiner Art, gemessen an der Anzahl der Schreibzugriffe (Commits). Der Dienst hat über 31 Millionen (31'000'000) registrierte Nutzer und verwaltet 96 Millionen (96'000'000) Repositories (Stand: Oktober 2019).
-Im Oktober 2016 berichtete die Zeitschrift Nature über die zunehmende Bedeutung von GitHub für den Austausch von wissenschaftlichen Daten. Im Jahr 2016 hätten ein Prozent aller Veröffentlichungen in der Informatik GitHub als Quelle zitiert, gefolgt von Mathematik und den Biowissenschaften.
+GitHub
+------
+
+GitHub ist ein Onlinedienst, der unsere Entwicklungsprojekte auf seinen Servern speichert und pflegt (File-hosting). Die Firma GitHub, Inc. hat ihren Sitz in San Francisco in Amerika! Jedesmal, wenn du also Änderungen an deiner Page machst, geschehen diese Änderungen in San Francisco auf einem Computer, werden dort gespeichert und reisen den ganzen Weg über den Atlantik zurück auf deinen Bildschirm!
+
+.. image:: images/sf.png
+   :width: 700 px
+
+GitHub war im Jahr 2011 bei Open-Source-Software der berühmteste Dienst seiner Art. Er hat über 31 Millionen (31'000'000) registrierte Nutzer und verwaltet 96 Millionen (96'000'000) Repositories (Stand: Oktober 2018) - du gehörst seit heute auch dazu!
 
 .. image:: images/github.png
    :width: 45%
@@ -34,10 +43,10 @@ Im Oktober 2016 berichtete die Zeitschrift Nature über die zunehmende Bedeutung
    :width: 25%
 
 
-|exercise| ..und wie siehst du aus im Git-Universum? Suche dir `hier`_ eine Verkleidung aus! |smile|
+.. todo:: |exercise| Wie siehst du aus im Git-Universum? Suche dir `hier`_ eine Verkleidung aus! |smile|
 
 Ein Repository laden
---------------------
+""""""""""""""""""""
 
 Es gibt typischerweise zwei Möglichkeiten ein GitHub Repository zu erhalten:
 
@@ -46,6 +55,10 @@ Es gibt typischerweise zwei Möglichkeiten ein GitHub Repository zu erhalten:
 
 In beiden Fällen erhält man sein Repository lokal verfügbar auf der lokalen Festplatte.
 
+.. note:: *Repository* ist das englische Wort für 'Lager'.
+
+   Du kannst dir ein Repository als digitale Lagerhalle vorstellen, in der du alle deine Ordner und Hefte deponierst.  Wenn du Änderungen machen möchtest, holst du den entsprechenden Ordner aus dem Lager (check-out) und bringst ihn nach getaner Arbeit wieder dorthin zurück (check-in).
+
 Klonen eines Repositories
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -53,18 +66,9 @@ Um ein Repository zu klonen brauchst du den Befehl ``git clone <url>``. Statt nu
 
 .. code-block:: bash
 
-   $ git clone git@gitlab.organisation:user/repository.git
+   $ git clone https://github.com/user/repository.git
 
-|exercise| Findest du heraus, wie genau dein Befehl lauten muss?
-
-Synchronisieren
-^^^^^^^^^^^^^^^
-
-Um alle neuen Dateien zu downloaden und Änderungen zu erhalten, gib den folgenden Befehl ein
-
-.. code-block:: bash
-
-   $ git pull
+.. todo:: |exercise| Findest du heraus, wie dein Befehl genau lauten muss? Schreib ihn dir auf - du wirst ihn bald brauchen..
 
 Änderungen hochladen
 ^^^^^^^^^^^^^^^^^^^^
@@ -81,6 +85,15 @@ Wenn du eine Datei im stage hast, die dort nicht hin gehört, kannst du diese au
 
  #. ``git reset HEAD deine_datei``
 
+Synchronisieren
+^^^^^^^^^^^^^^^
+
+Um alle neuen Dateien zu downloaden und Änderungen zu erhalten, gib den folgenden Befehl ein
+
+.. code-block:: bash
+
+   $ git pull
+
 
 Übersicht Git Stationen
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -88,6 +101,9 @@ Wenn du eine Datei im stage hast, die dort nicht hin gehört, kannst du diese au
 .. image:: images/git_operations.png
    :width: 70%
 
+.. note:: *Remote* ist das englische Wort für 'entfernt' oder 'Fernbedienung'.
+
+   Stelle dir vor du änderst den Fernseh-Sender vom Sofa aus, dann wird das Umschalten *remote* von dir gesteuert. Sprich: du musst nicht aufstehen und zum Fernseher gehen. Das Gleiche machst du, wenn du die Dateien auf deinem Computer änderst und diese Änderungen auf dem GitHub Server in Amerika speicherst.
 
 Python
 ======
@@ -96,9 +112,15 @@ Python
    :width: 190 px
    :align: left
 
-Python ist eine weit verbreitete Programmiersprache und - wie du merken wirst - ganz einfach zu lernen! Heute wirst du in dieser Sprache eine eigene Webseite erstellen und darauf kuriose Programme laufen lassen!
+Python ist einer der beliebtesten Programmiersprachen der Welt und - wie du merken wirst - ganz einfach zu lernen! Heute wirst du in dieser Sprache eine eigene Webseite erstellen und darauf kuriose Programme laufen lassen!
 
-Die mächtige Bibliothek ist eine der grössten Stärken von Python. Wie in der Bücher-Bibliothek kannst du in der Python-Bibliothek stöbern und dir gewisse Pakete ausleihen, die von anderen Leuten geschrieben wurden. Diese Pakete unterhalten dich, helfen dir Aufgaben zu lösen oder zeigen die neue Möglichkeiten. Bevor du also etwas selber programmierst, gehe **immer** zuerst in die Bibliothek und schau dich um, ob es schon etwas passendes gibt! |books|
+Die mächtige Bibliothek ist eine der grössten Stärken von Python. Wie in der Bücher-Bibliothek kannst du in der Python-Bibliothek stöbern und dir gewisse Pakete ausleihen, die von anderen Leuten verpackt wurden. Diese Pakete unterhalten dich, helfen dir Aufgaben zu lösen oder zeigen die neue Möglichkeiten.
+
+Bevor du also etwas selber programmierst, gehe **immer** zuerst in die Bibliothek und schau dich um, ob es schon etwas passendes gibt! |books|
+
+.. note:: Python ist so gut, dass es für viele interessante Aufgaben in der Medizin oder Naturwissenschaften verwendet wird. Man kann mit Python sogar die Lampen und die Heizung im Haus steuern!
+
+Sogar Teile der Suchmaschine Google sind in Python geschrieben und auch für YouTube wurde Python verwendet.
 
 Sphinx
 ------
@@ -122,7 +144,9 @@ Sphinx ist sehr leich anzuwenden, denn es verwendet reStructuredTest (reST) als 
     * Sachen
 
 
-**BRAVO** |muscle| Du hast dich gut geschlagen und alle Tools kennengelernt, die wir brauchen ..auf geht's - gestalte deine eigene Page |rocket|!
+.. todo:: **BRAVO** |muscle| Du hast dich gut geschlagen und alle Tools kennengelernt, die wir brauchen ..auf geht's - gestalte deine eigene Page |rocket|!
+
+   Überprüfe noch einmal, ob du die beiden Aufgaben gelöst hast und erinnere dich an die Adresse von deinem Repository!
 
 
 
@@ -137,3 +161,4 @@ Sphinx ist sehr leich anzuwenden, denn es verwendet reStructuredTest (reST) als 
 .. |muscle| replace:: 💪
 .. |rocket| replace:: 🚀
 .. |twinker| replace:: 😉
+.. |note| replace:: 📄

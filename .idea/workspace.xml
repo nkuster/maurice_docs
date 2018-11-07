@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71dd1f61-febc-4c64-bfe9-a7c102544908" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Einfuehrung/images/sf.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kapitel_1/geruest.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Kapitel_1/geruest.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Einfuehrung/intro.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Einfuehrung/intro.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/Einfuehrung/intro.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/Einfuehrung/intro.doctree" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/doctrees/Kapitel_1/geruest.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/Kapitel_1/geruest.doctree" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/environment.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/Kapitel_1/geruest.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Kapitel_1/geruest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/Kapitel_1/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Kapitel_1/readme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/Kapitel_1/geruest.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/Kapitel_1/geruest.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/.buildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/.buildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/Einfuehrung/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Einfuehrung/intro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/Einfuehrung/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Einfuehrung/readme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/Glossary/glossary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Glossary/glossary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/Glossary/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Glossary/readme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/Einfuehrung/intro.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/Einfuehrung/intro.rst.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/searchindex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/index.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,50 +50,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="57" />
-          <entry key="rst" value="8999" />
+          <entry key="py" value="84" />
+          <entry key="rst" value="11600" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="57" />
-          <entry key="ReST" value="8999" />
+          <entry key="Python" value="84" />
+          <entry key="ReST" value="11600" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kapitel_1/readme.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Kapitel_1/geruest.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="76" selection-start-line="76" selection-end-line="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Einfuehrung/intro.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>exten</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,13 +85,13 @@
         <option value="$PROJECT_DIR$/Einführung/intro.rst" />
         <option value="$PROJECT_DIR$/Einführung/readme.rst" />
         <option value="$PROJECT_DIR$/Einfuehrung/readme.rst" />
-        <option value="$PROJECT_DIR$/conf.py" />
         <option value="$PROJECT_DIR$/Glossary/readme.rst" />
         <option value="$PROJECT_DIR$/Glossary/glossary.rst" />
         <option value="$PROJECT_DIR$/Kapitel_1/readme.rst" />
+        <option value="$PROJECT_DIR$/Kapitel_1/geruest.rst" />
+        <option value="$PROJECT_DIR$/conf.py" />
         <option value="$PROJECT_DIR$/Einfuehrung/intro.rst" />
         <option value="$PROJECT_DIR$/index.rst" />
-        <option value="$PROJECT_DIR$/Kapitel_1/geruest.rst" />
       </list>
     </option>
   </component>
@@ -114,10 +102,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="788" />
-    <option name="y" value="23" />
-    <option name="width" value="892" />
-    <option name="height" value="993" />
+    <option name="x" value="3041" />
+    <option name="y" value="-367" />
+    <option name="width" value="2058" />
+    <option name="height" value="1325" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -133,11 +121,6 @@
             <path>
               <item name="maurice_docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="maurice_docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maurice_docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maurice_docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Einfuehrung" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maurice_docs" type="b2602c69:ProjectViewProjectNode" />
@@ -160,6 +143,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Einfuehrung/images" />
+      <recent name="$PROJECT_DIR$/Kapitel_1" />
       <recent name="$PROJECT_DIR$/Einführung/images" />
     </key>
   </component>
@@ -189,11 +173,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="788" y="23" width="892" height="993" extended-state="0" />
+    <frame x="3041" y="-367" width="2058" height="1325" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893162" visible="true" weight="0.13529412" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893162" visible="true" weight="0.17460318" />
       <window_info id="Structure" order="1" sideWeight="0.50106835" side_tool="true" weight="0.13568099" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -202,7 +186,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.24087591" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.24087591" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -279,8 +263,12 @@
     <entry file="file://$PROJECT_DIR$/Glossary/readme.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Einfuehrung/intro.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
+    <entry file="file://$PROJECT_DIR$/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
@@ -288,14 +276,10 @@
     <entry file="file://$PROJECT_DIR$/Kapitel_1/readme.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="76" selection-start-line="76" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Kapitel_1/geruest.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Einfuehrung/intro.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
