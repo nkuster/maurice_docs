@@ -38,7 +38,7 @@ release = '1.2'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.todo', 'sphinx_execute_code']
+extensions = ['sphinx.ext.todo']
 todo_include_todos=True
 
 # Add any paths that contain templates here, relative to this directory.
