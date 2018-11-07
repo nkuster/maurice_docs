@@ -1,0 +1,14 @@
+Robot-Zeichner
+==============
+
+.. image:: images/turtle.png
+   :align: left
+   :width: 350 px
+
+In Python kann man ganz leicht zeichnen. Mit dem Modul ``turtle`` kannst du eine Schildkröte über den Bildschirm bewegen, die einen Stift hat und damit Bilder zeichnet. In diesem Projekt, programmierst du die Turtle so, dass sie mehr und mehr Bilder von Robotern zeichnet!
+
+Führst du das Programm aus aus, legt die Python-Turtle los und bewegt sich über den Bildschirm. Dabei wird ein Roboter gezeichnet. Du siehst zu, wie der Roboter Stück für Stück in verschiedenen Farben entsteht.
+
+Prinzip
+-------
+

@@ -2,23 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71dd1f61-febc-4c64-bfe9-a7c102544908" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Roboter/readme.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Roboter/robot.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roboter/images/turtle.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passwort/generator.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Passwort/generator.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Profil/geruest.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Profil/geruest.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/Passwort/generator.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/Passwort/generator.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/Profil/geruest.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/Profil/geruest.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roboter/robot.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Roboter/robot.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/Roboter/robot.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/Roboter/robot.doctree" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/environment.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/Passwort/generator.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Passwort/generator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/Passwort/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Passwort/readme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/Profil/geruest.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Profil/geruest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/Profil/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Profil/readme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/Passwort/generator.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/Passwort/generator.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/Profil/geruest.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/Profil/geruest.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/index.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/index.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/Roboter/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Roboter/readme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/Roboter/robot.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Roboter/robot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/Roboter/robot.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/Roboter/robot.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/index.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/genindex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/html/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/objects.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/searchindex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/index.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,26 +38,26 @@
           <entry key="jpg" value="2" />
           <entry key="png" value="4" />
           <entry key="py" value="6" />
-          <entry key="rst" value="25" />
+          <entry key="rst" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="6" />
           <entry key="Python" value="6" />
-          <entry key="ReST" value="25" />
+          <entry key="ReST" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="180" />
-          <entry key="rst" value="18694" />
+          <entry key="rst" value="20614" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Python" value="187" />
-          <entry key="ReST" value="18687" />
+          <entry key="ReST" value="20607" />
         </counts>
       </usages-collector>
     </session>
@@ -75,12 +74,12 @@
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Roboter/robot.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Profil/geruest.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
@@ -106,12 +105,13 @@
         <option value="$PROJECT_DIR$/Kapitel_1/geruest.rst" />
         <option value="$PROJECT_DIR$/Einfuehrung/intro.rst" />
         <option value="$PROJECT_DIR$/Glossary/readme.rst" />
-        <option value="$PROJECT_DIR$/index.rst" />
         <option value="$PROJECT_DIR$/Passwort/readme.rst" />
         <option value="$PROJECT_DIR$/conf.py" />
         <option value="$PROJECT_DIR$/Roboter/readme.rst" />
         <option value="$PROJECT_DIR$/Passwort/generator.rst" />
         <option value="$PROJECT_DIR$/Profil/geruest.rst" />
+        <option value="$PROJECT_DIR$/index.rst" />
+        <option value="$PROJECT_DIR$/Roboter/robot.rst" />
       </list>
     </option>
   </component>
@@ -122,7 +122,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="605" />
+    <option name="x" value="420" />
     <option name="y" value="23" />
     <option name="width" value="1108" />
     <option name="height" value="993" />
@@ -145,12 +145,12 @@
             <path>
               <item name="maurice_docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="maurice_docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Einfuehrung" type="462c0819:PsiDirectoryNode" />
+              <item name="Profil" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maurice_docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="maurice_docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Profil" type="462c0819:PsiDirectoryNode" />
+              <item name="Roboter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,11 +167,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Roboter/images" />
       <recent name="$PROJECT_DIR$/Passwort/images" />
       <recent name="$PROJECT_DIR$/Profil" />
       <recent name="$PROJECT_DIR$/Einfuehrung/images" />
       <recent name="$PROJECT_DIR$/Kapitel_1" />
-      <recent name="$PROJECT_DIR$/Einführung/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -200,7 +200,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="605" y="23" width="1108" height="993" extended-state="0" />
+    <frame x="420" y="23" width="1108" height="993" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -287,9 +287,6 @@
     <entry file="file://$PROJECT_DIR$/Glossary/readme.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/conf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-122">
@@ -309,16 +306,19 @@
     <entry file="file://$PROJECT_DIR$/Profil/readme.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Roboter/robot.rst">
+    <entry file="file://$PROJECT_DIR$/Einfuehrung/intro.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Profil/geruest.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Passwort/generator.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Einfuehrung/intro.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Profil/geruest.rst">
+    <entry file="file://$PROJECT_DIR$/Roboter/robot.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
