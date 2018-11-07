@@ -1,26 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Roboter/robot.rst" description="   # Beine&#10;   t.goto(-25, -50)&#10;   rectangle(15, 10..." line="110" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="71dd1f61-febc-4c64-bfe9-a7c102544908" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Roboter/images/degrees.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kaleido/caleido.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kaleido/images/kaleido.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kaleido/images/kaleido2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kaleido/readme.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kaleido/spirale.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roboter/images/robot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roboter/images/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Roboter/robot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passwort/generator.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Passwort/generator.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Profil/geruest.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Profil/geruest.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roboter/images/turtle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Roboter/images/turtle.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Roboter/robot.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Roboter/robot.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/Passwort/generator.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/Passwort/generator.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/Profil/geruest.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/Profil/geruest.doctree" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/doctrees/Roboter/robot.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/Roboter/robot.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/environment.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/environment.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/index.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/index.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/Einfuehrung/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Einfuehrung/intro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/Einfuehrung/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Einfuehrung/readme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/Passwort/generator.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Passwort/generator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/Passwort/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Passwort/readme.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/html/Profil/geruest.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Profil/geruest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/html/Profil/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Profil/readme.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/html/Roboter/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Roboter/readme.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/html/Roboter/robot.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/Roboter/robot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_images/turtle.png" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_images/turtle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/Profil/geruest.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/Profil/geruest.rst.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/html/_sources/Roboter/robot.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/Roboter/robot.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/index.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/genindex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/objects.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/searchindex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/index.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,46 +54,50 @@
         <counts>
           <entry key="jpg" value="2" />
           <entry key="png" value="4" />
-          <entry key="py" value="6" />
-          <entry key="rst" value="26" />
+          <entry key="py" value="9" />
+          <entry key="rst" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="6" />
-          <entry key="Python" value="6" />
-          <entry key="ReST" value="26" />
+          <entry key="Python" value="9" />
+          <entry key="ReST" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="180" />
-          <entry key="rst" value="24347" />
+          <entry key="Python Console" value="35" />
+          <entry key="py" value="598" />
+          <entry key="rst" value="27909" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="187" />
-          <entry key="ReST" value="24340" />
+          <entry key="Python" value="640" />
+          <entry key="ReST" value="27902" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Passwort/generator.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Einfuehrung/intro.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Roboter/robot.rst">
+        <entry file="file://$PROJECT_DIR$/Kaleido/spirale.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Kaleido/caleido.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1541625995156" expanded="true" signature="156:295" ph="..." />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -107,10 +124,14 @@
         <option value="$PROJECT_DIR$/Passwort/readme.rst" />
         <option value="$PROJECT_DIR$/conf.py" />
         <option value="$PROJECT_DIR$/Roboter/readme.rst" />
-        <option value="$PROJECT_DIR$/index.rst" />
         <option value="$PROJECT_DIR$/Profil/geruest.rst" />
         <option value="$PROJECT_DIR$/Passwort/generator.rst" />
+        <option value="$PROJECT_DIR$/Roboter/robot.py" />
+        <option value="$PROJECT_DIR$/Kaleido/readme.rst" />
         <option value="$PROJECT_DIR$/Roboter/robot.rst" />
+        <option value="$PROJECT_DIR$/index.rst" />
+        <option value="$PROJECT_DIR$/Kaleido/caleido.py" />
+        <option value="$PROJECT_DIR$/Kaleido/spirale.rst" />
       </list>
     </option>
   </component>
@@ -121,7 +142,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="536" />
+    <option name="x" value="360" />
     <option name="y" value="23" />
     <option name="width" value="1108" />
     <option name="height" value="993" />
@@ -144,18 +165,22 @@
             <path>
               <item name="maurice_docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="maurice_docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Profil" type="462c0819:PsiDirectoryNode" />
+              <item name="Einfuehrung" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maurice_docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maurice_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Kaleido" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maurice_docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maurice_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Passwort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maurice_docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="maurice_docs" type="462c0819:PsiDirectoryNode" />
               <item name="Roboter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maurice_docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maurice_docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Roboter" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,11 +197,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Kaleido/images" />
       <recent name="$PROJECT_DIR$/Roboter/images" />
       <recent name="$PROJECT_DIR$/Passwort/images" />
       <recent name="$PROJECT_DIR$/Profil" />
       <recent name="$PROJECT_DIR$/Einfuehrung/images" />
-      <recent name="$PROJECT_DIR$/Kapitel_1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -214,11 +239,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="536" y="23" width="1108" height="993" extended-state="0" />
+    <frame x="360" y="23" width="1108" height="993" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49833518" visible="true" weight="0.1923077" />
-      <window_info id="Structure" order="1" sideWeight="0.5016648" side_tool="true" visible="true" weight="0.1923077" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.1923077" />
+      <window_info id="Structure" order="1" sideWeight="0.50165564" side_tool="true" visible="true" weight="0.1923077" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.24087591" />
@@ -230,9 +255,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51876175" side_tool="true" visible="true" weight="0.32963374" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49624765" weight="0.32963374" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.48123828" visible="true" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -302,25 +327,56 @@
     <entry file="file://$PROJECT_DIR$/Einfuehrung/readme.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Roboter/readme.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Profil/readme.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Profil/geruest.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Passwort/generator.rst">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="2468" selection-start-line="2468" selection-end-line="2468" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Roboter/robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-268">
+          <caret line="30" column="7" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Roboter/readme.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Einfuehrung/intro.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Passwort/generator.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kaleido/readme.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Roboter/robot.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kaleido/caleido.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1541625995156" expanded="true" signature="156:295" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kaleido/spirale.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>

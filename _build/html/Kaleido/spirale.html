@@ -1,0 +1,280 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="de" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="de" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Kaleido-Spirale &mdash; Zukunftstag Maurice 1.2 Dokumentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="prev" title="Aufgabe 3" href="readme.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Zukunftstag Maurice
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Einfuehrung/readme.html">Einführung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Profil/readme.html">Grundgerüst deiner Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Passwort/readme.html">Aufgabe 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Roboter/readme.html">Aufgabe 2</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="readme.html">Aufgabe 3</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Kaleido-Spirale</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#prinzip">Prinzip</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#spiralen-zeichnen">Spiralen zeichnen</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#turtle-laden-und-einrichten">Turtle laden und einrichten</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#weitere-kreise">Weitere Kreise</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Zukunftstag Maurice</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="readme.html">Aufgabe 3</a> &raquo;</li>
+        
+      <li>Kaleido-Spirale</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/Kaleido/spirale.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="kaleido-spirale">
+<h1>Kaleido-Spirale<a class="headerlink" href="#kaleido-spirale" title="Link zu dieser Überschrift">¶</a></h1>
+<p>So, wie einfache Codezeilen ein gutes Programm ergeben, bilden auch einfache Formen ein wunderschönes Bild! Die Kaleido-Spirale kombiniert Farben und Formen und erschafft so Meisterwerke der Digitalkunst, die jeder Kunstgalerie Ehre machen würden!</p>
+<p>Die Turtle zeichnet der Reihe nach viele Kreise auf den Bildschirm. Nasch jedem Kreis ändert die Turtle Position, Winkel, Farbe und Grösse des nächsten Kreises, den sie zeichnet. So entsteht mit der Zeit ein tolles Muster.</p>
+<div class="section" id="prinzip">
+<h2>Prinzip<a class="headerlink" href="#prinzip" title="Link zu dieser Überschrift">¶</a></h2>
+<p>In diesem Projekt schichtest du mit dem Modul <code class="docutils literal notranslate"><span class="pre">turtle</span></code> und einer klugen Schleifenmethode Kreise spiralig übereinander. Immer, wenn ein Kreis gezeichnet wird, erhöht das Programm die Parameter des Codes, der die Kreise zeichnet. Jeder Kreis ist anders als der vorhergehende, sodass das Muster interessanter wird.</p>
+<div class="admonition note">
+<p class="first admonition-title">Bemerkung</p>
+<p>Funktion <code class="docutils literal notranslate"><span class="pre">cycle()</span></code> (Kreislauf)</p>
+<p class="last">Das Programm setzt die Funktion <code class="docutils literal notranslate"><span class="pre">cycle()</span></code> aus dem Modul <code class="docutils literal notranslate"><span class="pre">itertools</span></code> ein, damit die Spiralen bunt werden. Mit der Funktion <code class="docutils literal notranslate"><span class="pre">cycle()</span></code> durchläuft das Programm immer wieder dieselbe Liste von Farben. So kann man ganz leicht für jeden Kreis eine andere Stiftfarbe einsetzen.</p>
+</div>
+</div>
+<div class="section" id="spiralen-zeichnen">
+<h2>Spiralen zeichnen<a class="headerlink" href="#spiralen-zeichnen" title="Link zu dieser Überschrift">¶</a></h2>
+<div class="section" id="turtle-laden-und-einrichten">
+<h3>Turtle laden und einrichten<a class="headerlink" href="#turtle-laden-und-einrichten" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Dieser Code ruft Funktionen im Modul <code class="docutils literal notranslate"><span class="pre">turtle</span></code> auf und legt damit die Hintergrundfarbe ebenso fest wie das Temp und die Breite der Turtle.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">turtle</span> <span class="kn">as</span> <span class="nn">t</span>
+
+<span class="n">t</span><span class="o">.</span><span class="n">bgcolor</span><span class="p">(</span><span class="s1">&#39;black&#39;</span><span class="p">)</span>
+<span class="n">t</span><span class="o">.</span><span class="n">speed</span><span class="p">(</span><span class="s1">&#39;fast&#39;</span><span class="p">)</span>
+<span class="n">t</span><span class="o">.</span><span class="n">pensize</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Nun legst du die Farbe der Turtle-Malspur fest und testest den Code, indem du einen Kreis zeichnest.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">pencolor</span><span class="p">(</span><span class="s1">&#39;red)</span>
+<span class="n">t</span><span class="o">.</span><span class="n">circle</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition-todo admonition" id="index-0">
+<p class="first admonition-title">Zu tun</p>
+<p class="last">✏️ Füge diese Zeilen am Ende des Codes an und führe das Programm aus.</p>
+</div>
+</div>
+<div class="section" id="weitere-kreise">
+<h3>Weitere Kreise<a class="headerlink" href="#weitere-kreise" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Da wir viele Kreise brauchen, folgt nun der schlaue Plan: Setze die Befehle zum Zeichnen des Kreises in eine Funktion und füge noch eine Zeile dazu, sodass die Funktion sich selbst aufruft. Diesen Trick nennt man <em>Rekursion</em>. DIe Funktion wiederholt sich selbst immer und immer wieder.</p>
+<p>Da Funktionen vor ihrem Gebrauch definiert werden müssen, musst du die Funktion weit nach oben setzen.</p>
+<div class="admonition-todo admonition" id="index-1">
+<p class="first admonition-title">Zu tun</p>
+<p class="last">✏️ Wie weit oben muss die Funktion definiert werden? Finde die Stelle!</p>
+</div>
+<p>Aufregendere Muster erhältst du mit den folgenden Änderungen im Code. Damit wird der Kreis immer grösser und die Farben ändern sich. Der Code enthält die Funktion <code class="docutils literal notranslate"><span class="pre">cycle()</span></code>, die eine Liste von Werten als Parameter übernimmt und eine spezielle Liste zurückgibt, die du mit der Funktion <code class="docutils literal notranslate"><span class="pre">next()</span></code> in einem unendlichen Kreislauf ausführen lassen kanns.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">cycle</span>
+</pre></div>
+</div>
+<p>Probiere es aus! 🚀</p>
+<a class="reference internal image-reference" href="../_images/kaleido.png"><img alt="../_images/kaleido.png" class="align-left" src="../_images/kaleido.png" style="width: 47%;" /></a>
+<a class="reference internal image-reference" href="../_images/kaleido2.png"><img alt="../_images/kaleido2.png" class="align-left" src="../_images/kaleido2.png" style="width: 43%;" /></a>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="readme.html" class="btn btn-neutral" title="Aufgabe 3" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Natalie Kuster
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/translations.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

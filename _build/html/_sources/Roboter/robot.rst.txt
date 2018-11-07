@@ -201,9 +201,20 @@ Nun musst du die Turtle verstecken, sonst sitzt sie mitten im Gesicht des Robote
    t.hideturtle()
 
 
+.. image:: images/test.png
+   :align: left
+   :width: 40%
+
+.. image:: images/robot.png
+   :width: 48%
 
 
 
+
+.. todo:: |Exercise| **BRAVO**! |muscle| Aber es gibt noch mehr zu tun..
+
+   Kannst du dem Roboter die Gesichtszüge ändern?
+   Lass den Roboter in anderen Farben erscheinen! ..oder baue ihm einen dritten Arm. |smile|
 
 
 

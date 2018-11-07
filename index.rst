@@ -9,11 +9,12 @@ Zukunftstag Maurice Fischer
 ****************************
 
 .. toctree::
-   :maxdepth: 5
+   :maxdepth: 3
    :caption: Contents:
 
    Einfuehrung/readme.rst
    Profil/readme.rst
    Passwort/readme.rst
    Roboter/readme.rst
+   Kaleido/readme.rst
 
