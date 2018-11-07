@@ -5,18 +5,18 @@ Robot-Zeichner
    :align: left
    :width: 350 px
 
-In Python kann man ganz leicht zeichnen. Mit dem Modul ``turtle`` kannst du eine Schildkröte über den Bildschirm bewegen, die einen Stift hat und damit Bilder zeichnet. In diesem Projekt, programmierst du die Turtle so, dass sie mehr und mehr Bilder von Robotern zeichnet!
+In Python kann man ganz leicht zeichnen. Mit dem Modul ``turtle`` kannst du eine Schildkröte über den Bildschirm bewegen, die einen Stift hat und damit Bilder zeichnet. In diesem Projekt programmierst du die Turtle so, dass sie mehr und mehr Bilder von Robotern zeichnet!
 
-Führst du das Programm aus aus, legt die Python-Turtle los und bewegt sich über den Bildschirm. Dabei wird ein Roboter gezeichnet. Du siehst zu, wie der Roboter Stück für Stück in verschiedenen Farben entsteht.
+Führst du das Programm aus, legt die Python-Turtle los und bewegt sich über den Bildschirm. Dabei wird ein Roboter gezeichnet. Du siehst zu, wie der Roboter Stück für Stück in verschiedenen Farben entsteht.
 
 Prinzip
 -------
 
-Zuerst schreibst du eine Funktion, die Rechtecke zeichnet. Dann stelsst du die Rechtecke zu einem Roboter zusammen. Ihre Farbe und Grösse kannst du anhand der Parameter ändern, die3 dur der Funktion übergibst. Lange, dünne Rechtecke können also die Beine bilden, quadratische die Augen und so weiter.
+Zuerst schreibst du eine Funktion, die Rechtecke zeichnet. Dann stellst du die Rechtecke zu einem Roboter zusammen. Farben und Grössen kannst du anhand der Parameter ändern, die du der Funktion übergibst. Lange, dünne Rechtecke können also die Beine bilden, quadratische die Augen und so weiter.
 
-.. note:: Mit dem Modul ``turtle`` steuerst du eine Roboterschildkröte, die einen Stift bei sich trägt. Du kannst Turtle sagen, wann sie den Stift aufsetzen und zeichnen soll und wann sie ihn heben soll, sodass sie sich an eine neue Position begeben kann, ohne eine Spur zu hinterlassen.
+.. note:: Mit dem Modul ``turtle`` steuerst du eine Roboterschildkröte, die einen Stift bei sich trägt. Du kannst der Turtle sagen, wann sie den Stift aufsetzen und zeichnen soll und wann sie ihn heben soll, sodass sie sich an eine neue Position begeben kann, ohne eine Spur zu hinterlassen.
 
-Die Turtle geht zum Beispiel 100 Pixel vorwärts, dreht sich um 90 Grad und geht 50 Pixel vorwärts mit folgendem Befehl:
+Mit folgendem Befehl geht die Turtle zum Beispiel 100 Pixel vorwärts, dreht sich um 90 Grad und geht 50 Pixel vorwärts:
 
 .. code-block:: python
 
@@ -80,7 +80,7 @@ Der Code lautet:
 
       t.shape('turtle')
 
-   Mit dem Befehl ``t.speed()`` legst du fest, wie schnell die Turtle unterwegs ist. Von sehr langsam bis sehr schnell gibt es hier die Werte: 'slowest', 'slow', 'normal', 'fast' und 'fastest'.
+   Mit dem Befehl ``t.speed()`` legst du fest, wie schnell die Turtle unterwegs ist. Von sehr langsam bis sehr schnell gibt es hier die Werte: *slowest*, *slow*, *normal*, *fast* und *fastest*.
 
 
 Den Roboter zeichnen

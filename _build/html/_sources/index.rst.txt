@@ -9,7 +9,7 @@ Zukunftstag Maurice Fischer
 ****************************
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Contents:
 
    Einfuehrung/readme.rst

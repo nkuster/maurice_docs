@@ -181,7 +181,7 @@
 <tbody valign="top">
 <tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/lock1.png"><img alt="../_images/lock1.png" src="../_images/lock1.png" style="width: 125px;" /></a>
 </td>
-<td>Namen sind zwar leicht zu merken, aber dafür auch leicht zu erraten..</td>
+<td>Namen sind zwar leicht zu merken, aber dafür auch leicht zu erraten.</td>
 </tr>
 <tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/lock2.png"><img alt="../_images/lock2.png" src="../_images/lock2.png" style="width: 125px;" /></a>
 </td>
@@ -189,7 +189,7 @@
 </tr>
 <tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/lock3.png"><img alt="../_images/lock3.png" src="../_images/lock3.png" style="width: 125px;" /></a>
 </td>
-<td>Bei diesem Passwort braucht der Hacker etwas Zeit..</td>
+<td>Bei diesem Passwort braucht der Hacker etwas Zeit.</td>
 </tr>
 <tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/lock4.png"><img alt="../_images/lock4.png" src="../_images/lock4.png" style="width: 125px;" /></a>
 </td>
@@ -197,7 +197,8 @@
 </tr>
 </tbody>
 </table>
-<p>In dieser Aufgabe lernst du das Modul <code class="docutils literal notranslate"><span class="pre">random</span></code> kennen. Das Programm trifft aus Gruppen von Adjektiven, Nomen, Zahlen und Satzzeichen eine zufällige Auswahl und kombiniert daraus Passwörter. Deine Passwörter sind ab jetzt so irre, dass du sie nie vergessen wirst!</p>
+<p>In dieser Aufgabe lernst du das Modul <code class="docutils literal notranslate"><span class="pre">random</span></code> kennen. Das Programm trifft aus Gruppen von Adjektiven, Nomen, Zahlen und Satzzeichen eine zufällige Auswahl und kombiniert daraus Passwörter.</p>
+<p>Deine Passwörter sind ab jetzt so irre, dass du sie nie vergessen wirst!</p>
 <div class="admonition note">
 <p class="first admonition-title">Bemerkung</p>
 <p class="last"><strong>Adjektiv</strong> + <strong>Nomen</strong> + <strong>Zahl</strong> + <strong>Satzzeichen</strong></p>
@@ -208,20 +209,20 @@
 </div>
 <div class="section" id="prinzip">
 <h2>Prinzip<a class="headerlink" href="#prinzip" title="Link zu dieser Überschrift">¶</a></h2>
-<p>Das Programm wählt die vier Teile des Passworts zufällig aus, setzt sie zusammen und zeigt das Passwort im Shell-Fenster an. Wenn du das Passwort nicht magst, wiederholt es die Schritte, gefällt es dir, endet das Programm.</p>
+<p>Das Programm wählt die vier Teile des Passworts zufällig aus, setzt sie zusammen und zeigt das Passwort an. Wenn du das Passwort nicht magst, wiederholt es die Schritte, gefällt es dir, endet das Programm.</p>
 <div class="section" id="module-einfugen">
 <h3>Module einfügen<a class="headerlink" href="#module-einfugen" title="Link zu dieser Überschrift">¶</a></h3>
 <div class="admonition-todo admonition" id="index-0">
 <p class="first admonition-title">Zu tun</p>
-<p>✏️ Wie erwähnt, müssen wir nicht das ganze Programm selber schreiben! Wir gehen einfach einmal in die Bibliothek und schauen uns ein wenig um. Denke daran, dass du zwei dinge brauchst: ein Modul, dass Worte auch als solche erkennt und ein weiteres Modul, dass den Zufallsgenerator spielt.</p>
+<p>✏️ Wie erwähnt, müssen wir nicht das ganze Programm selber schreiben! Wir gehen einfach in die Bibliothek und schauen uns ein wenig um. Denke daran, dass du zwei Dinge brauchst: ein Modul, dass Worte auch als solche erkennt und ein weiteres Modul, dass den Zufallsgenerator spielt.</p>
 <p>Findest du aus den untenstehenden Modulen die richtigen?</p>
 <p class="last"><code class="docutils literal notranslate"><span class="pre">pandas</span></code> ; <code class="docutils literal notranslate"><span class="pre">random</span></code> ; <code class="docutils literal notranslate"><span class="pre">os</span></code> ; <code class="docutils literal notranslate"><span class="pre">string</span></code> ; <code class="docutils literal notranslate"><span class="pre">numpy</span></code> ; <code class="docutils literal notranslate"><span class="pre">turtle</span></code> ; <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code></p>
 </div>
-<p>Die Module kannst du gerade zu Beginn aus der Bibliothek importieren, denn dann kannst du sie später ohne weiteren Aufwand im Code verwenden.</p>
+<p>Module kannst du gerade zu Beginn aus der Bibliothek importieren, denn dann kannst du sie später ohne weiteren Aufwand im Code verwenden.</p>
 </div>
 <div class="section" id="wortlisten">
 <h3>Wortlisten<a class="headerlink" href="#wortlisten" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Zum Erstellen neuer Passwörter brauchst du eine Liste für Adjektive und eine für Nomen. In Python kannst du zusammengehörige Elemente in Listen speichern. Setze die ganze Liste in <code class="docutils literal notranslate"><span class="pre">[]</span></code>-Klammern und trenne die Elemente durch Kommas.</p>
+<p>Zum Erstellen neuer Passwörter brauchst du eine Liste für Adjektive und eine für Nomen. In Python kannst du zusammengehörige Elemente in Listen speichern. Setze die ganze Liste in eckige Klammern (<code class="docutils literal notranslate"><span class="pre">[]</span></code>) und trenne die Elemente durch Kommas.</p>
 <div class="section" id="adjektive">
 <h4>Adjektive<a class="headerlink" href="#adjektive" title="Link zu dieser Überschrift">¶</a></h4>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">die_adjektive</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;schläfrig&#39;</span><span class="p">,</span> <span class="s1">&#39;lahm&#39;</span><span class="p">,</span> <span class="s1">&#39;rot&#39;</span><span class="p">,</span> <span class="s1">&#39;tapfer&#39;</span><span class="p">,</span> <span class="s1">&#39;flauschig&#39;</span><span class="p">,</span> <span class="s1">&#39;stolz&#39;</span><span class="p">]</span>
@@ -240,7 +241,7 @@
 </div>
 <div class="admonition-todo admonition" id="index-1">
 <p class="first admonition-title">Zu tun</p>
-<p class="last">✏️ Definiere mit Hilfe der obigen Beschreibung für <code class="docutils literal notranslate"><span class="pre">adjektiv</span></code> die Variable <code class="docutils literal notranslate"><span class="pre">nomen</span></code> und füge sie direkt in deinen Code!</p>
+<p class="last">✏️ Definiere mit Hilfe der obigen Beschreibung für die Variable <code class="docutils literal notranslate"><span class="pre">nomen</span></code> und füge sie direkt in deinen Code!</p>
 </div>
 </div>
 </div>
@@ -257,17 +258,21 @@
 </div>
 <div class="admonition-todo admonition" id="index-2">
 <p class="first admonition-title">Zu tun</p>
-<p>✏️ Setze die geforderte Code-Zeile für die zufällige Zahl und dfas zufällige Satzzeichen direkt ans Ende deines Codes.</p>
+<p>✏️ Setze die geforderten Code-Zeilen für die zufällige Zahl und das zufällige Satzzeichen direkt ans Ende deines Codes.</p>
 <p class="last">Geschafft? Wenn du dir nicht sicher bist, lies noch einmal in den oberen Abschnitten nach..</p>
 </div>
 </div>
 </div>
 <div class="section" id="das-neue-passwort">
 <h2>Das neue Passwort<a class="headerlink" href="#das-neue-passwort" title="Link zu dieser Überschrift">¶</a></h2>
-<p>Nun kannst du die Teile zu einem neuen, sicheren Passwort kombinieren. Setze die folgen Codezeilen ans Ende des Programms</p>
+<p>Nun kannst du die Teile zu einem neuen, sicheren Passwort kombinieren. Setze die folgen Codezeilen ans Ende des Programms.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">passwort</span> <span class="o">=</span> <span class="n">adjektiv</span> <span class="o">+</span> <span class="n">nomen</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">zahl</span><span class="p">)</span> <span class="o">+</span> <span class="n">sonderzeichen</span>
 <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Das neue Passwort ist: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">passwort</span><span class="p">)</span>
 </pre></div>
+</div>
+<div class="admonition-todo admonition" id="index-3">
+<p class="first admonition-title">Zu tun</p>
+<p class="last">🚀 WOW! Du bist ja schon fast ein Coding-Genie! Niemand wird je deine Passwörter herausfinden! 😃</p>
 </div>
 </div>
 </div>

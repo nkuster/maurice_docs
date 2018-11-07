@@ -7,13 +7,6 @@ Als erstes brauchst du einen GitHub Account, den du mit deinem persönlichen Oct
 
    Erinnerst du dich an die einzelnen Schritte aus der Einführung? Wenn nicht, blättere einfach zurück...
 
-
-readme Datei
-------------
-
-Als readme oder "Lies mich" wird eine Datei bezeichnet, die überlicherweise mit der Software mitgeliefert wird und wichtige Informationen über diese enthält. Oft wird der Benutzer vor der Installation und vor der ersten Verwendung der Software über wichtige Details informiert, die für den Gebrauch wichtig sind.
-Wir werden in diese Datei dein Inhaltsverzeichnis schreiben, damit sich alle User auf deiner Page auch gut zurecht finden!
-
 Deine Homepage berechnen
 ------------------------
 
@@ -26,14 +19,14 @@ Alles richtig? Na dann los! |smile| Du kannst deine Page wie folgt anschauen:
    $ make html
    $ open _build/html/index.html
 
-Das sieht zugegeben noch etwas langweilig aus.. ab zum nächsten Schritt! Bring Farbe auf deine Page ..|rocket|
+Das sieht zugegeben noch etwas langweilig aus.. ab zum nächsten Schritt! Bring Farbe auf deine Page .. |rocket|
 
 Template
 ^^^^^^^^
 
-Template ist ein englisches Wort für *Schablone*. Diese Schablone stellt eine Art Gerüst dar, das einen Teil der Gestaltung deiner Page vorgibt. Du kannst die fehlenden Teile nur noch einsetzen und so die Vorlage zu einer vollständigen Homepage ergänzen.
+Template ist das englische Wort für *Schablone*. Diese Schablone stellt eine Art Gerüst dar, das einen Teil der Gestaltung deiner Page vorgibt. Du kannst die fehlenden Teile nur noch einsetzen und so die Vorlage zu einer vollständigen Homepage ergänzen.
 
-Das template fügen wir in den Konfigurationen, sprich den *Einstellungen*, ein. Diese Datei heisst ``config.py``. Dort fügst du an gegebener Stelle den folgenden Code ein:
+Das template fügen wir in den Konfigurationen, sprich den *Einstellungen*, ein. Diese Datei heisst ``config.py``. Dort kopierst du an gegebener Stelle den folgenden Code hin:
 
 .. code-block:: python
 
@@ -61,7 +54,7 @@ Das template fügen wir in den Konfigurationen, sprich den *Einstellungen*, ein.
 
 .. todo:: |exercise| Findest du die Stelle im ``config.py`` file? Kopiere den Code rein und schaue dir dein neues Template an!
 
-   Besser, oder? Gut gemacht! |muscle|
+   Besser, oder? Gratulation! |muscle|
 
 
 

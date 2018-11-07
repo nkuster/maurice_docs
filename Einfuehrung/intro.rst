@@ -12,7 +12,7 @@ Linux
 
 1991 begann Linus Torvalds in Helsinki (Finnland) mit der Entwicklung von Linux, um unter anderem seinen eigenen Computer besser zu verstehen. Mit der Zeit merkte er, dass sich das System immer mehr zu einem Betriebssystem entwickelte. Heute ist Linux ein modular aufgebautes Betriebssystem und wird von Softwareentwicklern auf der ganzen Welt weiterentwickelt.
 
-.. note:: *Modulares Betriebssystem* bedeutet, dass das Betriebssystem des Computers aus einzelnen Bausteinen (Modulen) besteht. Stell dir einfach vor, du würdest dir verschiedene Legosteine aussuchen und zusammenstecken - genau so machst du es mit Modulen, um dein perfektes Betriebssystem zu generieren.
+.. note:: *Modulares Betriebssystem* bedeutet, dass das Betriebssystem des Computers aus einzelnen Bausteinen (Modulen) besteht. Stell dir einfach vor, du würdest dir verschiedene Lego-Steine aussuchen und zusammenstecken - genau so machst du es mit Modulen, um dein perfektes Betriebssystem zu generieren.
 
 Linux wird fast überall eingesetzt, beispielsweise auf Smartphones, Notebooks, Multimedia-Endgeräten und Supercomputern.
 Dies bringt auch zahlreiche Nutzer mit sich, darunter private Personen (wie du und ich), Regierungen, Organisationen und Unternehmen.
@@ -53,7 +53,7 @@ Es gibt typischerweise zwei Möglichkeiten ein GitHub Repository zu erhalten:
  #. Man nimmt einen lokalen Ordner und verwandelt diesen in ein GitHub Repository
  #. Man *klont* ein bestehendes Repository von GitHub
 
-In beiden Fällen erhält man sein Repository lokal verfügbar auf der lokalen Festplatte.
+In beiden Fällen erhält man sein Repository lokal verfügbar auf seiner eigenen Festplatte.
 
 .. note:: *Repository* ist das englische Wort für 'Lager'.
 
@@ -103,7 +103,9 @@ Um alle neuen Dateien zu downloaden und Änderungen zu erhalten, gib den folgend
 
 .. note:: *Remote* ist das englische Wort für 'entfernt' oder 'Fernbedienung'.
 
-   Stelle dir vor du änderst den Fernseh-Sender vom Sofa aus, dann wird das Umschalten *remote* von dir gesteuert. Sprich: du musst nicht aufstehen und zum Fernseher gehen. Das Gleiche machst du, wenn du die Dateien auf deinem Computer änderst und diese Änderungen auf dem GitHub Server in Amerika speicherst.
+   Stelle dir vor du änderst den Fernseh-Sender vom Sofa aus, dann wird das Umschalten *remote* von dir gesteuert. Sprich: du musst nicht aufstehen und zum Fernseher gehen.
+
+   Das Gleiche machst du, wenn du die Dateien auf deinem Computer änderst und diese Änderungen auf dem GitHub Server in Amerika speicherst.
 
 Python
 ======
@@ -120,14 +122,14 @@ Bevor du also etwas selber programmierst, gehe **immer** zuerst in die Bibliothe
 
 .. note:: Python ist so gut, dass es für viele interessante Aufgaben in der Medizin oder Naturwissenschaften verwendet wird. Man kann mit Python sogar die Lampen und die Heizung im Haus steuern!
 
-Sogar Teile der Suchmaschine Google sind in Python geschrieben und auch für YouTube wurde Python verwendet.
+   Sogar Teile der Suchmaschine Google sind in Python geschrieben und auch für YouTube wurde Python verwendet.
 
 Sphinx
 ------
 
 Wer - wie du heute - selbst an einem Projekt arbeitet, kennt das Problem, dass man später einmal vergisst, was man eigentlich gemacht hat. Dafür muss man Dokumentationen schreiben! ..und das machen wir mit Sphinx. Sphinx ist ein in Python geschriebens Tool (Hilfsmittel) und soll helfen, Python Projekte zu dokumentieren.
 
-Sphinx ist sehr leich anzuwenden, denn es verwendet reStructuredTest (reST) als Sprache. Mit reST kannst du auch in der Rohform leicht lesen und schreiben. SO werden zum Beispiel verschiedene Textelemente wie folgt gekennzeichnet:
+Sphinx ist sehr leich anzuwenden, denn es verwendet reStructuredTest (reST) als Sprache. Mit reST kannst du auch in der Rohform leicht lesen und schreiben. Zum Beispiel kannst du verschiedene Textelemente einfach kennzeichnen:
 
 .. code-block:: bash
 

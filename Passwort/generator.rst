@@ -8,20 +8,22 @@ Mit dem Passwort-Generator kannst du Wörter, Zahlen und Zeichen zu starken Pass
 Gute Passwörter sind leicht zu merken, aber schwer zu erraten - oder zu knacken. Schauen wir uns einmal ein paar Beispiele an:
 
 +----------------------------+-----------------------------------------------------------------------+
-|.. image:: images/lock1.png | Namen sind zwar leicht zu merken, aber dafür auch leicht zu erraten.. |
+|.. image:: images/lock1.png | Namen sind zwar leicht zu merken, aber dafür auch leicht zu erraten.  |
 |   :width: 125 px           |                                                                       |
 +----------------------------+-----------------------------------------------------------------------+
 |.. image:: images/lock2.png | Etwas komplizierter, aber Hacker können es in 2 Sekunden knacken!     |
 |   :width: 125 px           |                                                                       |
 +----------------------------+-----------------------------------------------------------------------+
-|.. image:: images/lock3.png | Bei diesem Passwort braucht der Hacker etwas Zeit..                   |
+|.. image:: images/lock3.png | Bei diesem Passwort braucht der Hacker etwas Zeit.                    |
 |   :width: 125 px           |                                                                       |
 +----------------------------+-----------------------------------------------------------------------+
 |.. image:: images/lock4.png | Dieses ist sicher und leicht zu merken!                               |
 |   :width: 125 px           |                                                                       |
 +----------------------------+-----------------------------------------------------------------------+
 
-In dieser Aufgabe lernst du das Modul ``random`` kennen. Das Programm trifft aus Gruppen von Adjektiven, Nomen, Zahlen und Satzzeichen eine zufällige Auswahl und kombiniert daraus Passwörter. Deine Passwörter sind ab jetzt so irre, dass du sie nie vergessen wirst!
+In dieser Aufgabe lernst du das Modul ``random`` kennen. Das Programm trifft aus Gruppen von Adjektiven, Nomen, Zahlen und Satzzeichen eine zufällige Auswahl und kombiniert daraus Passwörter.
+
+Deine Passwörter sind ab jetzt so irre, dass du sie nie vergessen wirst!
 
 .. note:: **Adjektiv** + **Nomen** + **Zahl** + **Satzzeichen**
 
@@ -36,23 +38,23 @@ In dieser Aufgabe lernst du das Modul ``random`` kennen. Das Programm trifft aus
 Prinzip
 -------
 
-Das Programm wählt die vier Teile des Passworts zufällig aus, setzt sie zusammen und zeigt das Passwort im Shell-Fenster an. Wenn du das Passwort nicht magst, wiederholt es die Schritte, gefällt es dir, endet das Programm.
+Das Programm wählt die vier Teile des Passworts zufällig aus, setzt sie zusammen und zeigt das Passwort an. Wenn du das Passwort nicht magst, wiederholt es die Schritte, gefällt es dir, endet das Programm.
 
 Module einfügen
 ^^^^^^^^^^^^^^^
 
-.. todo:: |exercise| Wie erwähnt, müssen wir nicht das ganze Programm selber schreiben! Wir gehen einfach einmal in die Bibliothek und schauen uns ein wenig um. Denke daran, dass du zwei dinge brauchst: ein Modul, dass Worte auch als solche erkennt und ein weiteres Modul, dass den Zufallsgenerator spielt.
+.. todo:: |exercise| Wie erwähnt, müssen wir nicht das ganze Programm selber schreiben! Wir gehen einfach in die Bibliothek und schauen uns ein wenig um. Denke daran, dass du zwei Dinge brauchst: ein Modul, dass Worte auch als solche erkennt und ein weiteres Modul, dass den Zufallsgenerator spielt.
 
    Findest du aus den untenstehenden Modulen die richtigen?
 
    ``pandas`` ; ``random`` ; ``os`` ; ``string`` ; ``numpy`` ; ``turtle`` ; ``matplotlib``
 
-Die Module kannst du gerade zu Beginn aus der Bibliothek importieren, denn dann kannst du sie später ohne weiteren Aufwand im Code verwenden.
+Module kannst du gerade zu Beginn aus der Bibliothek importieren, denn dann kannst du sie später ohne weiteren Aufwand im Code verwenden.
 
 Wortlisten
 ^^^^^^^^^^
 
-Zum Erstellen neuer Passwörter brauchst du eine Liste für Adjektive und eine für Nomen. In Python kannst du zusammengehörige Elemente in Listen speichern. Setze die ganze Liste in ``[]``-Klammern und trenne die Elemente durch Kommas.
+Zum Erstellen neuer Passwörter brauchst du eine Liste für Adjektive und eine für Nomen. In Python kannst du zusammengehörige Elemente in Listen speichern. Setze die ganze Liste in eckige Klammern (``[]``) und trenne die Elemente durch Kommas.
 
 Adjektive
 """""""""
@@ -75,7 +77,7 @@ Für dein Passwort muss das Programm zufällig ein Adjektiv und ein Nomen auswä
    # die Variable 'adjektiv' enthält ein zufällig gewähltes Element aus der Adjektiv-Liste
    adjektiv = random.choice(die_adjektive)
 
-.. todo:: |exercise| Definiere mit Hilfe der obigen Beschreibung für ``adjektiv`` die Variable ``nomen`` und füge sie direkt in deinen Code!
+.. todo:: |exercise| Definiere mit Hilfe der obigen Beschreibung für die Variable ``nomen`` und füge sie direkt in deinen Code!
 
 Zufällige Zahlen
 ^^^^^^^^^^^^^^^^
@@ -90,14 +92,14 @@ Mit der Funktion ``random.choice()`` kannst du per Zufall ein Satzzeichen auswä
 .. note:: Eine Konstante ist eine besondere Variable mit unveränderlichem Inhalt. Die Konstante ``string.punctuation`` enthält einen string aus lauter Satzzeichzen. Der Inhalt wird angezeigt, wenn du in der Kommandozeile tippst: ``print(string.punctuation)``
 
 
-.. todo:: |exercise| Setze die geforderte Code-Zeile für die zufällige Zahl und dfas zufällige Satzzeichen direkt ans Ende deines Codes.
+.. todo:: |exercise| Setze die geforderten Code-Zeilen für die zufällige Zahl und das zufällige Satzzeichen direkt ans Ende deines Codes.
 
    Geschafft? Wenn du dir nicht sicher bist, lies noch einmal in den oberen Abschnitten nach..
 
 Das neue Passwort
 -----------------
 
-Nun kannst du die Teile zu einem neuen, sicheren Passwort kombinieren. Setze die folgen Codezeilen ans Ende des Programms
+Nun kannst du die Teile zu einem neuen, sicheren Passwort kombinieren. Setze die folgen Codezeilen ans Ende des Programms.
 
 .. code-block:: python
 
@@ -105,5 +107,9 @@ Nun kannst du die Teile zu einem neuen, sicheren Passwort kombinieren. Setze die
    print("Das neue Passwort ist: %s" % passwort)
 
 
+.. todo:: |rocket| WOW! Du bist ja schon fast ein Coding-Genie! Niemand wird je deine Passwörter herausfinden! |smile|
+
 .. |exercise| replace:: ✏️
 .. |muscle| replace:: 💪
+.. |smile| replace:: 😃
+.. |rocket| replace:: 🚀

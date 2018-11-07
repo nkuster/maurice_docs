@@ -1,7 +1,7 @@
 Kaleido-Spirale
 ===============
 
-So, wie einfache Codezeilen ein gutes Programm ergeben, bilden auch einfache Formen ein wunderschönes Bild! Die Kaleido-Spirale kombiniert Farben und Formen und erschafft so Meisterwerke der Digitalkunst, die jeder Kunstgalerie Ehre machen würden!
+So wie einfache Codezeilen ein gutes Programm ergeben, bilden auch einfache Formen ein wunderschönes Bild! Die Kaleido-Spirale kombiniert Farben und Formen und erschafft so Meisterwerke der Digitalkunst, die jeder Kunstgalerie Ehre machen würden!
 
 Die Turtle zeichnet der Reihe nach viele Kreise auf den Bildschirm. Nasch jedem Kreis ändert die Turtle Position, Winkel, Farbe und Grösse des nächsten Kreises, den sie zeichnet. So entsteht mit der Zeit ein tolles Muster.
 
@@ -21,7 +21,7 @@ Spiralen zeichnen
 Turtle laden und einrichten
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Dieser Code ruft Funktionen im Modul ``turtle`` auf und legt damit die Hintergrundfarbe ebenso fest wie das Temp und die Breite der Turtle.
+Dieser Code ruft Funktionen im Modul ``turtle`` auf und legt damit die Hintergrundfarbe ebenso fest wie das Tempo und die Breite der Turtle.
 
 .. code-block:: python
 
